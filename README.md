@@ -55,10 +55,12 @@ Trabalho e estudo diariamente com as seguintes tecnologias e ecossistemas:
 ---
 
 ### 🎮 Além do Código (Meus Interesses)
-Quando não estou programando ou configurando meu ambiente Linux (Arch/Bazzite), você pode me encontrar:
-- 🐉 Caçando monstros em **Monster Hunter** ou relaxando na minha ilha no **Animal Crossing**.
-- 🖥️ Otimizando meu setup de hardware para extrair o máximo de performance.
-- 🎧 Consumindo áudio Lossless de alta fidelidade e mergulhando em boas trilhas sonoras.
+Quando não estou programando ou configurando meu ambiente Linux, você pode me encontrar:
+- 👾 **Engenharia Reversa & ROM Hacking:** Adoro colocar a mão na massa para traduzir jogos antigos e modificar assets gráficos (troca de sprites e imagens), unindo código e nostalgia.
+- 🎙️ **Criando Conteúdo:** Compartilhando minhas caçadas no *Monster Hunter*, sessões de *Animal Crossing* ou batendo papo com a galera como **Streamer**.
+- 🎧 **Música & Áudio:** Possuo um conhecimento profundo de música, sendo um grande entusiasta de equipamentos e áudio Lossless de alta fidelidade.
+- 📸 **Fotografia:** Praticando o olhar fotográfico e brincando com lentes e ângulos no meu tempo livre.
+- 🖥️ **Hardware:** Sempre otimizando meu setup para extrair o máximo de performance.
 
 <div align="center">
   <br>

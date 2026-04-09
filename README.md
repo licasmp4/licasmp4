@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/38b66afe-fb6f-4f7c-ae3e-26a5c8c72fe2" width="100" style="margin: 0 5px;" alt="Gif 1" /><img src="https://github.com/user-attachments/assets/7cd65403-9e4c-44ff-aa0f-35496615779e" width="100" style="margin: 0 5px;" alt="Gif 2" /><img src="https://github.com/user-attachments/assets/e988a1ea-24d7-4977-b474-f628b5eab379" width="100" style="margin: 0 5px;" alt="Gif 3" /><img src="https://github.com/user-attachments/assets/548a0186-8ea9-49d0-91df-5c9a081af3fb" width="100" style="margin: 0 5px;" alt="Gif 4" />
   
-  <h1>Olá, eu sou o Lucas 👋</h1>
+  <h1>Olá, meu nome é Lucas Luiz👋</h1>
   <p><b>Desenvolvedor de Software | Entusiasta de IA, Linux e Hardware</b></p>
   
   <a href="https://www.twitch.tv/licasmp4" target="_blank">

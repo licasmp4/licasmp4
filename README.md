@@ -1,50 +1,69 @@
 <div align="center">
   
-  <h1>⚔️ Bem-vindo ao meu Acampamento Base! 🐉</h1>
-  <p>A preparar a Build, a afiar o código e a caçar bugs (e Elder Dragons)! 🍖</p>
+  ![c334edebe774005c105baef4c475f8ec](https://github.com/user-attachments/assets/38b66afe-fb6f-4f7c-ae3e-26a5c8c72fe2)
+  ![nirah-______-rath-test](https://github.com/user-attachments/assets/7cd65403-9e4c-44ff-aa0f-35496615779e)
+  ![3a6a1f1dc453042bae81848115e20d59](https://github.com/user-attachments/assets/e988a1ea-24d7-4977-b474-f628b5eab379)
+  ![7497cbe4b3cf36f473acd8cce6413d00](https://github.com/user-attachments/assets/548a0186-8ea9-49d0-91df-5c9a081af3fb)
+  
+  <h1>Olá, eu sou o Lucas 👋</h1>
+  <p><b>Desenvolvedor de Software | Entusiasta de Linux e Hardware</b></p>
 </div>
 
 ---
 
-### 📜 Diário de Caça (Sobre a minha jornada)
-- 🎓 Estudante de **ADS** (Rank G nas horas vagas).
-- 💻 Focado em programação com **Python**: a construir desde jogos como o xadrez até ao desenvolvimento de um site completo de e-commerce.
-- 🐧 Entusiasta de ecossistemas **Linux**, a explorar distribuições como Ubuntu, Arch e Bazzite para aliar produtividade a sessões de jogo fluidas.
+### 💼 Perfil Profissional
+Sou estudante de **Análise e Desenvolvimento de Sistemas (ADS)** com forte foco na criação de soluções eficientes e otimizadas. Tenho facilidade com transições de ambiente e adaptação, buscando sempre aliar performance de software com um profundo entendimento de hardware e infraestrutura.
 
-### 🎮 Guilda de Jogos & Hardware
-- 🐉 Caçador veterano na franquia **Monster Hunter** (preparado para qualquer Quest!). Quando preciso de relaxar, vou cuidar da minha ilha no **Animal Crossing**.
-- 🕹️ Colecionador de horas na **Steam**, fã de consoles clássicos.
-- 🖥️ Apaixonado por **Hardware**.
- 
-### 🎧 Banda Sonora da Caçada 
-- 🎶 Entusiasta de áudio de alta fidelidade!
-- 🎵 Sempre programando ouvindo uma boa música.
+**O que estou construindo agora:**
+- 🛒 **Plataforma de E-commerce:** Liderando o desenvolvimento do zero de um site de vendas completo para o varejo, aplicando conceitos de arquitetura web e banco de dados.
+- ♟️ **Motor de Xadrez:** Desenvolvendo um jogo de xadrez estruturado em **Python**, aprimorando lógica complexa e Programação Orientada a Objetos.
 
----
+### 🛠️ Minha Stack e Ferramentas
+Trabalho e estudo diariamente com as seguintes tecnologias e ecossistemas:
 
-### ⚒️ A Minha Forja (Tecnologias)
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python"  />
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" title="Python" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" title="JavaScript" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" height="40" alt="Ubuntu"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" title="HTML5" />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" title="CSS3" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL" title="Bancos de Dados" />
+  <br><br>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux" title="Linux" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" height="40" alt="Ubuntu" title="Ubuntu" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="Bash/Terminal" title="Bash" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" title="Git" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub" title="GitHub" />
 </div>
 
 <br>
 
-### 💳 Guild Card (Estatísticas do GitHub)
+### 📈 Estatísticas do GitHub
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=licasmp4&show_icons=true&theme=gruvbox&hide_border=true&bg_color=1d2021" alt="Estatísticas do GitHub" />
   <br>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=licasmp4&theme=gruvbox&hide_border=true&background=1d2021" alt="Streak do GitHub" />
 </div>
 
-<div align="center">
+---
 
+### 🎮 Além do Código (Meus Interesses)
+Quando não estou programando ou configurando meu ambiente Linux (Arch/Bazzite), você pode me encontrar:
+- 🐉 Caçando monstros em **Monster Hunter** ou relaxando na minha ilha no **Animal Crossing**.
+- 🖥️ Otimizando meu setup (atualmente domando um Ryzen 7 5800X com uma RTX 3060 Ti) ou jogando no PS5 Pro.
+- 🎧 Consumindo áudio Lossless de alta fidelidade com meu Sony WH-1000XM6.
+
+
+<div align="center">
   <br>
+  
   <h2>🍖 <i>"So tasty!"</i> 🍖</h2>
-  <p><i>A recuperar a stamina para o próximo commit...</i></p>
+  <p><i>Recuperando a stamina para o próximo commit...</i></p>
 </div>

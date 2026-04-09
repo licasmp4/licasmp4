@@ -1,9 +1,5 @@
 <div align="center">
-  <img src="https://media.tenor.com/d_iA-t16UvMAAAAj/poogie-monster-hunter.gif" width="100" alt="Poogie animado">
-  <img src="https://raw.githubusercontent.com/CrimsonNynja/monster-hunter-DB/master/icons/Rathalos.png" width="80" alt="Rathalos">
-  <img src="https://raw.githubusercontent.com/CrimsonNynja/monster-hunter-DB/master/icons/Zinogre.png" width="80" alt="Zinogre">
-  <img src="https://raw.githubusercontent.com/CrimsonNynja/monster-hunter-DB/master/icons/Nargacuga.png" width="80" alt="Nargacuga">
-
+  
   <h1>⚔️ Bem-vindo ao meu Acampamento Base! 🐉</h1>
   <p>A preparar a Build, a afiar o código e a caçar bugs (e Elder Dragons)! 🍖</p>
 </div>
@@ -41,13 +37,14 @@
 
 ### 💳 Guild Card (Estatísticas do GitHub)
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=O_TEU_UTILIZADOR&show_icons=true&theme=gruvbox&hide_border=true&bg_color=1d2021" alt="Estatísticas do GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api?username=licasmp4&show_icons=true&theme=gruvbox&hide_border=true&bg_color=1d2021" alt="Estatísticas do GitHub" />
   <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=O_TEU_UTILIZADOR&theme=gruvbox&hide_border=true&background=1d2021" alt="Streak do GitHub" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=licasmp4&theme=gruvbox&hide_border=true&background=1d2021" alt="Streak do GitHub" />
 </div>
 
 <div align="center">
-  <img src="https://media.tenor.com/b_xG8V10OigAAAAj/monster-hunter-bbq.gif" width="120" alt="Hunter assando carne">
+
+  <br>
   <h2>🍖 <i>"So tasty!"</i> 🍖</h2>
   <p><i>A recuperar a stamina para o próximo commit...</i></p>
 </div>

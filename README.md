@@ -1,9 +1,5 @@
 <div align="center">
-  
-  ![c334edebe774005c105baef4c475f8ec](https://github.com/user-attachments/assets/38b66afe-fb6f-4f7c-ae3e-26a5c8c72fe2)
-  ![nirah-______-rath-test](https://github.com/user-attachments/assets/7cd65403-9e4c-44ff-aa0f-35496615779e)
-  ![3a6a1f1dc453042bae81848115e20d59](https://github.com/user-attachments/assets/e988a1ea-24d7-4977-b474-f628b5eab379)
-  ![7497cbe4b3cf36f473acd8cce6413d00](https://github.com/user-attachments/assets/548a0186-8ea9-49d0-91df-5c9a081af3fb)
+  <img src="https://github.com/user-attachments/assets/38b66afe-fb6f-4f7c-ae3e-26a5c8c72fe2" width="100" style="margin: 0 5px;" alt="Gif 1" /><img src="https://github.com/user-attachments/assets/7cd65403-9e4c-44ff-aa0f-35496615779e" width="100" style="margin: 0 5px;" alt="Gif 2" /><img src="https://github.com/user-attachments/assets/e988a1ea-24d7-4977-b474-f628b5eab379" width="100" style="margin: 0 5px;" alt="Gif 3" /><img src="https://github.com/user-attachments/assets/548a0186-8ea9-49d0-91df-5c9a081af3fb" width="100" style="margin: 0 5px;" alt="Gif 4" />
   
   <h1>Olá, eu sou o Lucas 👋</h1>
   <p><b>Desenvolvedor de Software | Entusiasta de Linux e Hardware</b></p>
@@ -23,6 +19,10 @@ Trabalho e estudo diariamente com as seguintes tecnologias e ecossistemas:
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" title="Python" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java" title="Java" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" title="C++" />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" title="JavaScript" />
   <img width="12" />
@@ -57,9 +57,8 @@ Trabalho e estudo diariamente com as seguintes tecnologias e ecossistemas:
 ### 🎮 Além do Código (Meus Interesses)
 Quando não estou programando ou configurando meu ambiente Linux (Arch/Bazzite), você pode me encontrar:
 - 🐉 Caçando monstros em **Monster Hunter** ou relaxando na minha ilha no **Animal Crossing**.
-- 🖥️ Otimizando meu setup (atualmente domando um Ryzen 7 5800X com uma RTX 3060 Ti) ou jogando no PS5 Pro.
-- 🎧 Consumindo áudio Lossless de alta fidelidade com meu Sony WH-1000XM6.
-
+- 🖥️ Otimizando meu setup para extrair o máximo de performance ou jogando no PS5 Pro.
+- 🎧 Consumindo áudio Lossless de alta fidelidade e mergulhando em boas trilhas sonoras.
 
 <div align="center">
   <br>

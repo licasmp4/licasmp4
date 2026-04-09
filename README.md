@@ -3,6 +3,13 @@
   
   <h1>Olá, eu sou o Lucas 👋</h1>
   <p><b>Desenvolvedor de Software | Entusiasta de IA, Linux e Hardware</b></p>
+  
+  <a href="https://www.twitch.tv/licasmp4" target="_blank">
+    <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch" />
+  </a>
+  <a href="https://www.instagram.com/licas.mp4" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
 </div>
 
 ---

@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/38b66afe-fb6f-4f7c-ae3e-26a5c8c72fe2" width="100" style="margin: 0 5px;" alt="Gif 1" /><img src="https://github.com/user-attachments/assets/7cd65403-9e4c-44ff-aa0f-35496615779e" width="100" style="margin: 0 5px;" alt="Gif 2" /><img src="https://github.com/user-attachments/assets/e988a1ea-24d7-4977-b474-f628b5eab379" width="100" style="margin: 0 5px;" alt="Gif 3" /><img src="https://github.com/user-attachments/assets/548a0186-8ea9-49d0-91df-5c9a081af3fb" width="100" style="margin: 0 5px;" alt="Gif 4" />
   
   <h1>Olá, eu sou o Lucas 👋</h1>
-  <p><b>Desenvolvedor de Software | Entusiasta de Linux e Hardware</b></p>
+  <p><b>Desenvolvedor de Software | Entusiasta de IA, Linux e Hardware</b></p>
 </div>
 
 ---
@@ -10,9 +10,9 @@
 ### 💼 Perfil Profissional
 Sou estudante de **Análise e Desenvolvimento de Sistemas (ADS)** com forte foco na criação de soluções eficientes e otimizadas. Tenho facilidade com transições de ambiente e adaptação, buscando sempre aliar performance de software com um profundo entendimento de hardware e infraestrutura.
 
-**O que estou construindo agora:**
+**Foco atual e Especialidades:**
 - 🛒 **Plataforma de E-commerce:** Liderando o desenvolvimento do zero de um site de vendas completo para o varejo, aplicando conceitos de arquitetura web e banco de dados.
-- ♟️ **Motor de Xadrez:** Desenvolvendo um jogo de xadrez estruturado em **Python**, aprimorando lógica complexa e Programação Orientada a Objetos.
+- 🤖 **Inteligência Artificial:** Amplo conhecimento e facilidade na utilização, exploração e integração de ferramentas e modelos de IA para otimizar fluxos de trabalho e resolver problemas complexos.
 
 ### 🛠️ Minha Stack e Ferramentas
 Trabalho e estudo diariamente com as seguintes tecnologias e ecossistemas:
@@ -57,7 +57,7 @@ Trabalho e estudo diariamente com as seguintes tecnologias e ecossistemas:
 ### 🎮 Além do Código (Meus Interesses)
 Quando não estou programando ou configurando meu ambiente Linux (Arch/Bazzite), você pode me encontrar:
 - 🐉 Caçando monstros em **Monster Hunter** ou relaxando na minha ilha no **Animal Crossing**.
-- 🖥️ Otimizando meu setup para extrair o máximo de performance ou jogando no PS5 Pro.
+- 🖥️ Otimizando meu setup de hardware para extrair o máximo de performance.
 - 🎧 Consumindo áudio Lossless de alta fidelidade e mergulhando em boas trilhas sonoras.
 
 <div align="center">

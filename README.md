@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/u7Wg1i1.gif" width="100" alt="Poogie animado">
+  <img src="https://media.tenor.com/d_iA-t16UvMAAAAj/poogie-monster-hunter.gif" width="100" alt="Poogie animado">
   <img src="https://raw.githubusercontent.com/CrimsonNynja/monster-hunter-DB/master/icons/Rathalos.png" width="80" alt="Rathalos">
   <img src="https://raw.githubusercontent.com/CrimsonNynja/monster-hunter-DB/master/icons/Zinogre.png" width="80" alt="Zinogre">
   <img src="https://raw.githubusercontent.com/CrimsonNynja/monster-hunter-DB/master/icons/Nargacuga.png" width="80" alt="Nargacuga">
@@ -18,8 +18,8 @@
 ### 🎮 Guilda de Jogos & Hardware
 - 🐉 Caçador veterano na franquia **Monster Hunter** (preparado para qualquer Quest!). Quando preciso de relaxar, vou cuidar da minha ilha no **Animal Crossing**.
 - 🕹️ Colecionador de horas na **Steam**, fã de consoles clássicos.
-- 🖥️ Apaixonado por **Hardware**
-- 
+- 🖥️ Apaixonado por **Hardware**.
+ 
 ### 🎧 Banda Sonora da Caçada 
 - 🎶 Entusiasta de áudio de alta fidelidade!
 - 🎵 Sempre programando ouvindo uma boa música.
@@ -47,7 +47,7 @@
 </div>
 
 <div align="center">
-  <img src="https://i.imgur.com/nn5DlMe.gif" width="120" alt="Palico animado">
+  <img src="https://media.tenor.com/b_xG8V10OigAAAAj/monster-hunter-bbq.gif" width="120" alt="Hunter assando carne">
   <h2>🍖 <i>"So tasty!"</i> 🍖</h2>
   <p><i>A recuperar a stamina para o próximo commit...</i></p>
 </div>

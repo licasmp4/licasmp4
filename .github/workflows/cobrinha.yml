@@ -19,7 +19,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/cobrinha.svg?color_snake=#ff2e88&color_dots=#160d22,#3a1450,#6b1a6e,#b3127a,#ff2e88&color_background=#07060b
+            dist/cobrinha.svg?color_snake=#c9a24a&color_dots=#2a1c12,#5a3b22,#8a5a2e,#b8843e,#f2d68a&color_background=#1a120b
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

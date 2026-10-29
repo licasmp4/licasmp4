@@ -1,67 +1,59 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="licas.mp3 — dev, ROM hacker e caçador" />
+<img src="assets/guild-card.svg" width="100%" alt="Guild Card — Lucas Luiz (licas.mp3), curso de IA no SENAI, apps e ferramentas com IA" />
 
-<br>
-
-<a href="https://www.twitch.tv/licasmp4"><img src="https://img.shields.io/badge/twitch-licasmp4-ff2e88?style=for-the-badge&logo=twitch&logoColor=ff2e88&labelColor=07060b" alt="Twitch" /></a>
-<a href="https://www.instagram.com/licas.mp4"><img src="https://img.shields.io/badge/instagram-licas.mp4-3cf0ff?style=for-the-badge&logo=instagram&logoColor=3cf0ff&labelColor=07060b" alt="Instagram" /></a>
-<img src="https://komarev.com/ghpvc/?username=licasmp4&label=almas%20que%20passaram&color=8a5cff&style=for-the-badge&labelColor=07060b" alt="Visitas" />
-
-<br><br>
-
-<img src="assets/divisor.svg" width="100%" alt="" />
+<a href="https://www.twitch.tv/licasmp4"><img src="https://img.shields.io/badge/twitch-licasmp4-c9a24a?style=for-the-badge&logo=twitch&logoColor=f2d68a&labelColor=2a1c12" alt="Twitch" /></a>
+<a href="https://www.instagram.com/licas.mp4"><img src="https://img.shields.io/badge/instagram-licas.mp4-c9a24a?style=for-the-badge&logo=instagram&logoColor=f2d68a&labelColor=2a1c12" alt="Instagram" /></a>
 
 </div>
 
-<img src="assets/t-sobre.svg" height="56" alt="Sobre mim" />
+<img src="assets/t-sobre.svg" width="100%" alt="Sobre mim" />
+
+Oi! Eu sou o **Lucas**, mas na internet é **licas.mp3**. 🍖
+
+Fiz o curso de **Inteligência Artificial no SENAI** e hoje passo boa parte do tempo construindo coisas com IA: apps, sites e ferramentas que eu mesmo uso no dia a dia. Gosto de pegar uma ideia e ir até o fim, do primeiro rascunho ao instalador pronto.
+
+Fora do código, quase sempre estou caçando em **Monster Hunter**. Gosto tanto que traduzi o **4 Ultimate** e o **Generations Ultimate** pra português e fiz um launcher pra jogar os ports no PC. Também curto mexer com tradução de jogos, áudio de alta fidelidade, hardware e fazer live na Twitch.
+
+<img src="assets/t-quests.svg" width="100%" alt="Quadro de quests" />
 
 <div align="center">
-<img src="assets/terminal.svg" width="85%" alt="whoami: Lucas Gonzaga Luiz, estudante de ADS, dev de apps e sites com IA, tradutor de jogos pra pt-BR, áudio hi-res, hardware, linux e streams" />
+<a href="https://github.com/licasmp4/Clawdeck"><img src="assets/quest-clawdeck.svg" width="49%" alt="Clawdeck — os terminais do Claude Code, o site e o celular num app só" /></a>
+<a href="https://github.com/licasmp4/MHLAUNCHER"><img src="assets/quest-mhlauncher.svg" width="49%" alt="MHLAUNCHER — os ports de Monster Hunter no PC num lugar só, em português" /></a>
+<img src="assets/quest-neurocraft.svg" width="49%" alt="Neurocraft — bots que jogam Minecraft de verdade (privado)" />
+<img src="assets/quest-earshare.svg" width="49%" alt="EarShare — vários fones tocando a mesma música (privado)" />
 </div>
 
-<br>
-
-<img src="assets/t-projetos.svg" height="56" alt="Projetos" />
+<img src="assets/t-monstros.svg" width="100%" alt="Monstros favoritos" />
 
 <div align="center">
-<a href="https://github.com/licasmp4/Clawdeck"><img src="assets/card-clawdeck.svg" width="49%" alt="Clawdeck — os terminais do Claude Code, o site e o celular num app só" /></a>
-<a href="https://github.com/licasmp4/MHLAUNCHER"><img src="assets/card-mhlauncher.svg" width="49%" alt="MHLAUNCHER — os ports de Monster Hunter no PC num lugar só, em português" /></a>
-<img src="assets/card-neurocraft.svg" width="49%" alt="Neurocraft — bots que jogam Minecraft de verdade (privado)" />
-<img src="assets/card-earshare.svg" width="49%" alt="EarShare — vários fones, uma música (privado)" />
+<table>
+<tr>
+<td align="center"><img src="https://media.tenor.com/09Xj87VmdeEAAAAd/nargacuga-vs-ebony-odogaron-mh-world-iceborne.gif" width="100%" alt="Nargacuga" /><br><b>Nargacuga</b></td>
+<td align="center"><img src="https://media.tenor.com/AYZ6wEvp6XMAAAAd/green-nargacuga-monster-hunter.gif" width="100%" alt="Green Nargacuga" /><br><b>Green Nargacuga</b></td>
+</tr>
+<tr>
+<td align="center"><img src="https://media.tenor.com/2zYeBvK5rmEAAAAd/ruiner-nergigante-monster-hunter-world-iceborne.gif" width="100%" alt="Nergigante" /><br><b>Nergigante</b></td>
+<td align="center"><img src="https://media.tenor.com/1O7a5-X08s8AAAAd/zinogre-magnamalo.gif" width="100%" alt="Zinogre contra Magnamalo" /><br><b>Zinogre</b></td>
+</tr>
+</table>
+<sub>GIFs via Tenor · Monster Hunter © Capcom</sub>
 </div>
 
-<br>
-
-<img src="assets/t-arsenal.svg" height="56" alt="Arsenal" />
+<img src="assets/t-equipamento.svg" width="100%" alt="Equipamento" />
 
 <div align="center">
 <img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,mysql,nodejs,electron,swift,cs,rust,linux,ubuntu,bash,git,github&theme=dark&perline=9" alt="Python, Java, JavaScript, TypeScript, HTML, CSS, MySQL, Node.js, Electron, Swift, C#, Rust, Linux, Ubuntu, Bash, Git, GitHub" />
 </div>
 
-<br>
-
-<img src="assets/t-mh.svg" height="56" alt="Monster Hunter" />
-
-<div align="center">
-<img src="assets/monster-hunter.svg" width="100%" alt="Fogueira com carne no espeto e uma greatsword fincada: So tasty!" />
-
-<sub>Traduzi o <b>4 Ultimate</b> e o <b>Generations Ultimate</b> pra pt-BR e fiz o <a href="https://github.com/licasmp4/MHLAUNCHER">MHLAUNCHER</a> pra jogar tudo no PC.</sub>
-</div>
-
-<br>
-
-<img src="assets/t-cacadas.svg" height="56" alt="Caçadas" />
+<img src="assets/t-registro.svg" width="100%" alt="Registro de caçadas" />
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/licasmp4/licasmp4/output/cobrinha.svg" width="100%" alt="Cobrinha comendo o gráfico de contribuições" />
 
-<img src="https://streak-stats.demolab.com/?user=licasmp4&hide_border=true&background=07060b&ring=ff2e88&fire=ff2e88&currStreakNum=e8e0f0&sideNums=e8e0f0&currStreakLabel=3cf0ff&sideLabels=8a5cff&dates=8d7aa3&stroke=2a1240&locale=pt_BR" alt="Sequência de contribuições" />
-</div>
+<img src="https://streak-stats.demolab.com/?user=licasmp4&hide_border=true&background=2a1c12&ring=c9a24a&fire=e0703a&currStreakNum=f2d68a&sideNums=f2d68a&currStreakLabel=c9a24a&sideLabels=c8b48e&dates=a08c6a&stroke=3d2919&locale=pt_BR" alt="Sequência de contribuições" />
 
-<br>
+<br><br>
 
-<div align="center">
-<img src="assets/divisor.svg" width="100%" alt="" />
-<img src="assets/rodape.svg" width="70%" alt="Recuperando stamina pro próximo commit" />
+<img src="assets/rodape.svg" width="80%" alt="Happy hunting!" />
 </div>

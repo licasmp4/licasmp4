@@ -1,0 +1,29 @@
+# Gera a cobrinha que come o gráfico de contribuições (pixel, cores do perfil).
+name: cobrinha
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/cobrinha.svg?color_snake=#ff2e88&color_dots=#160d22,#3a1450,#6b1a6e,#b3127a,#ff2e88&color_background=#07060b
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

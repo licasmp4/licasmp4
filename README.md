@@ -1,74 +1,67 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/38b66afe-fb6f-4f7c-ae3e-26a5c8c72fe2" width="100" style="margin: 0 5px;" alt="Gif 1" /><img src="https://github.com/user-attachments/assets/7cd65403-9e4c-44ff-aa0f-35496615779e" width="100" style="margin: 0 5px;" alt="Gif 2" /><img src="https://github.com/user-attachments/assets/e988a1ea-24d7-4977-b474-f628b5eab379" width="100" style="margin: 0 5px;" alt="Gif 3" /><img src="https://github.com/user-attachments/assets/548a0186-8ea9-49d0-91df-5c9a081af3fb" width="100" style="margin: 0 5px;" alt="Gif 4" />
-  
-  <h1>Olá, meu nome é Lucas Luiz👋</h1>
-  <p><b>Desenvolvedor de Software | Entusiasta de IA, Linux e Hardware</b></p>
-  
-  <a href="https://www.twitch.tv/licasmp4" target="_blank">
-    <img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch" />
-  </a>
-  <a href="https://www.instagram.com/licas.mp4" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
+
+<img src="assets/banner.svg" width="100%" alt="licas.mp3 — dev, ROM hacker e caçador" />
+
+<br>
+
+<a href="https://www.twitch.tv/licasmp4"><img src="https://img.shields.io/badge/twitch-licasmp4-ff2e88?style=for-the-badge&logo=twitch&logoColor=ff2e88&labelColor=07060b" alt="Twitch" /></a>
+<a href="https://www.instagram.com/licas.mp4"><img src="https://img.shields.io/badge/instagram-licas.mp4-3cf0ff?style=for-the-badge&logo=instagram&logoColor=3cf0ff&labelColor=07060b" alt="Instagram" /></a>
+<img src="https://komarev.com/ghpvc/?username=licasmp4&label=almas%20que%20passaram&color=8a5cff&style=for-the-badge&labelColor=07060b" alt="Visitas" />
+
+<br><br>
+
+<img src="assets/divisor.svg" width="100%" alt="" />
+
 </div>
 
----
+<img src="assets/t-sobre.svg" height="56" alt="Sobre mim" />
 
-### 💼 Perfil Profissional
-Sou estudante de **Análise e Desenvolvimento de Sistemas (ADS)** com forte foco na criação de soluções eficientes e otimizadas. Tenho facilidade com transições de ambiente e adaptação, buscando sempre aliar performance de software com um profundo entendimento de hardware e infraestrutura.
-
-**Foco atual e Especialidades:**
-- 🛒 **Plataforma de E-commerce:** Liderando o desenvolvimento do zero de um site de vendas completo para o varejo, aplicando conceitos de arquitetura web e banco de dados.
-- 🤖 **Inteligência Artificial:** Amplo conhecimento e facilidade na utilização, exploração e integração de ferramentas e modelos de IA para otimizar fluxos de trabalho e resolver problemas complexos.
-
-### 🛠️ Minha Stack e Ferramentas
-Trabalho e estudo diariamente com as seguintes tecnologias e ecossistemas:
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" title="Python" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java" title="Java" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" title="JavaScript" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" title="HTML5" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" title="CSS3" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL" title="Bancos de Dados" />
-  <br><br>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux" title="Linux" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" height="40" alt="Ubuntu" title="Ubuntu" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" height="40" alt="Bash/Terminal" title="Bash" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="Git" title="Git" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="GitHub" title="GitHub" />
+<div align="center">
+<img src="assets/terminal.svg" width="85%" alt="whoami: Lucas Gonzaga Luiz, estudante de ADS, dev de apps e sites com IA, tradutor de jogos pra pt-BR, áudio hi-res, hardware, linux e streams" />
 </div>
 
 <br>
 
-### 📈 Estatísticas do GitHub
+<img src="assets/t-projetos.svg" height="56" alt="Projetos" />
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=licasmp4&show_icons=true&theme=gruvbox&hide_border=true&bg_color=1d2021" alt="Estatísticas do GitHub" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=licasmp4&theme=gruvbox&hide_border=true&background=1d2021" alt="Streak do GitHub" />
+<a href="https://github.com/licasmp4/Clawdeck"><img src="assets/card-clawdeck.svg" width="49%" alt="Clawdeck — os terminais do Claude Code, o site e o celular num app só" /></a>
+<a href="https://github.com/licasmp4/MHLAUNCHER"><img src="assets/card-mhlauncher.svg" width="49%" alt="MHLAUNCHER — os ports de Monster Hunter no PC num lugar só, em português" /></a>
+<img src="assets/card-neurocraft.svg" width="49%" alt="Neurocraft — bots que jogam Minecraft de verdade (privado)" />
+<img src="assets/card-earshare.svg" width="49%" alt="EarShare — vários fones, uma música (privado)" />
 </div>
 
----
+<br>
 
-### 🎮 Além do Código (Meus Interesses)
-Quando não estou programando ou jogando alguma coisa, você pode me encontrar:
-- 👾 **Engenharia Reversa & ROM Hacking:** Adoro colocar a mão na massa para traduzir jogos antigos e modificar assets gráficos.
-- 🎙️ **Criando Conteúdo:** Gosto muito de jogar *Monster Hunter*!!! e curto fazer **Streamer**. de outros jogos também.
-- 🎧 **Música & Áudio:** Possuo um conhecimento intermediário em Áuido, sendo um entusiasta iniciante de equipamentos e áudio Lossless/HiRes de alta fidelidade.
-- 🖥️ **Hardware:** Gosto de me manter informado sobre o mundo do hardware e suas constantes inovações.
+<img src="assets/t-arsenal.svg" height="56" alt="Arsenal" />
 
 <div align="center">
-  <br>
-  
-  <h2>🍖 <i>"So tasty!"</i> 🍖</h2>
-  <p><i>Recuperando a stamina para o próximo commit...</i></p>
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,mysql,nodejs,electron,swift,cs,rust,linux,ubuntu,bash,git,github&theme=dark&perline=9" alt="Python, Java, JavaScript, TypeScript, HTML, CSS, MySQL, Node.js, Electron, Swift, C#, Rust, Linux, Ubuntu, Bash, Git, GitHub" />
+</div>
+
+<br>
+
+<img src="assets/t-mh.svg" height="56" alt="Monster Hunter" />
+
+<div align="center">
+<img src="assets/monster-hunter.svg" width="100%" alt="Fogueira com carne no espeto e uma greatsword fincada: So tasty!" />
+
+<sub>Traduzi o <b>4 Ultimate</b> e o <b>Generations Ultimate</b> pra pt-BR e fiz o <a href="https://github.com/licasmp4/MHLAUNCHER">MHLAUNCHER</a> pra jogar tudo no PC.</sub>
+</div>
+
+<br>
+
+<img src="assets/t-cacadas.svg" height="56" alt="Caçadas" />
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/licasmp4/licasmp4/output/cobrinha.svg" width="100%" alt="Cobrinha comendo o gráfico de contribuições" />
+
+<img src="https://streak-stats.demolab.com/?user=licasmp4&hide_border=true&background=07060b&ring=ff2e88&fire=ff2e88&currStreakNum=e8e0f0&sideNums=e8e0f0&currStreakLabel=3cf0ff&sideLabels=8a5cff&dates=8d7aa3&stroke=2a1240&locale=pt_BR" alt="Sequência de contribuições" />
+</div>
+
+<br>
+
+<div align="center">
+<img src="assets/divisor.svg" width="100%" alt="" />
+<img src="assets/rodape.svg" width="70%" alt="Recuperando stamina pro próximo commit" />
 </div>

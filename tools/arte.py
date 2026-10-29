@@ -47,49 +47,104 @@ def brasao(cx, cy, s, cor=TINTA):
             f'</g>')
 
 # ================= GUILD CARD (banner) =================
+import base64
+OURO_GRAD = ('<linearGradient id="ouro" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff0b8"/><stop offset=".35" stop-color="#e2b955"/>'
+             '<stop offset=".55" stop-color="#9a6a1e"/><stop offset=".75" stop-color="#e8c46a"/><stop offset="1" stop-color="#7a5418"/></linearGradient>')
+
+def madeira(id_):
+    # veios de madeira: ruído esticado na horizontal, colorido de marrom
+    return (f'<filter id="{id_}" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".003 .09" numOctaves="4" seed="11"/>'
+            f'<feColorMatrix type="matrix" values="0 0 0 0 .20  0 0 0 0 .12  0 0 0 0 .07  0 0 0 0 1"/>'
+            f'<feComponentTransfer><feFuncA type="table" tableValues="0 .9"/></feComponentTransfer>'
+            f'<feComposite in2="SourceGraphic" operator="in"/></filter>')
+
+def filigrana(x, y, sx, sy, cor):
+    # arabesco de canto
+    return (f'<g transform="translate({x} {y}) scale({sx} {sy})" fill="none" stroke="{cor}" stroke-width="2" stroke-linecap="round">'
+            f'<path d="M0 46 V10 Q0 0 10 0 H46"/><path d="M8 54 V18 Q8 8 18 8 H54" stroke-width="1"/>'
+            f'<path d="M18 18 q14 2 16 16 q-10 -2 -16 -16z" fill="{cor}" stroke="none"/>'
+            f'<path d="M46 0 q10 -8 20 0 q-10 6 -20 0z M0 46 q-8 10 0 20 q6 -10 0 -20z" fill="{cor}" stroke="none"/>'
+            f'<circle cx="26" cy="26" r="3" fill="{cor}" stroke="none"/></g>')
+
 def guild_card():
-    W, H = 1200, 400
-    p = [f'<defs>{defs_papel("pp")}<linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{MADEIRA}"/><stop offset="1" stop-color="#160e08"/></linearGradient>'
-         f'<radialGradient id="fogo" cx=".5" cy="1" r=".7"><stop offset="0" stop-color="#ff8a2a" stop-opacity=".35"/><stop offset="1" stop-color="#ff8a2a" stop-opacity="0"/></radialGradient>'
-         f'<linearGradient id="brilho" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>'
-         f'<clipPath id="tit"><text x="600" y="92" text-anchor="middle" font-family="{SERIF}" font-size="40" font-weight="bold" letter-spacing="10">GUILD CARD</text></clipPath></defs>',
-         f'<rect width="{W}" height="{H}" fill="url(#fundo)"/>']
-    # tábuas de madeira
-    for y in range(0, H, 50):
-        p.append(f'<rect x="0" y="{y}" width="{W}" height="2" fill="#000" opacity=".35"/>')
-    p.append(f'<rect width="{W}" height="{H}" fill="url(#fogo)" class="fg"/>')
-    # o cartão
-    cx, cy, cw, ch = 110, 34, 980, 330
-    p.append(f'<rect x="{cx+8}" y="{cy+10}" width="{cw}" height="{ch}" fill="#000" opacity=".45"/>')
+    W, H = 1200, 460
+    foto = base64.b64encode(open(os.path.join(os.path.dirname(__file__), 'retrato.jpg'), 'rb').read()).decode()
+    p = [f'<defs>{defs_papel("pp")}{madeira("veio")}{OURO_GRAD}'
+         f'<linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2516"/><stop offset="1" stop-color="#140c06"/></linearGradient>'
+         f'<radialGradient id="fogo" cx=".5" cy="1.05" r=".75"><stop offset="0" stop-color="#ff9a3c" stop-opacity=".55"/><stop offset=".5" stop-color="#ff7a1a" stop-opacity=".15"/><stop offset="1" stop-color="#ff7a1a" stop-opacity="0"/></radialGradient>'
+         f'<radialGradient id="vin" cx=".5" cy=".5" r=".72"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".7"/></radialGradient>'
+         f'<radialGradient id="mancha"><stop offset="0" stop-color="#8a6a3a" stop-opacity=".22"/><stop offset="1" stop-color="#8a6a3a" stop-opacity="0"/></radialGradient>'
+         f'<linearGradient id="brilho" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>'
+         f'<radialGradient id="cera" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#c0473a"/><stop offset=".7" stop-color="#8c2a1c"/><stop offset="1" stop-color="#5a160c"/></radialGradient>'
+         f'<clipPath id="rt"><circle cx="0" cy="0" r="80"/></clipPath>'
+         f'<clipPath id="tit"><text x="640" y="112" text-anchor="middle" font-family="{SERIF}" font-size="50" font-weight="bold" letter-spacing="14">GUILD CARD</text></clipPath>'
+         f'<filter id="sombra" x="-10%" y="-10%" width="130%" height="140%"><feGaussianBlur stdDeviation="10"/></filter></defs>',
+         # mesa
+         f'<rect width="{W}" height="{H}" fill="url(#fundo)"/>',
+         f'<rect width="{W}" height="{H}" fill="#000" filter="url(#veio)"/>']
+    for y in (0, 118, 236, 354):
+        p.append(f'<rect x="0" y="{y}" width="{W}" height="3" fill="#0b0603" opacity=".8"/>')
+    p.append(f'<rect class="fg" width="{W}" height="{H}" fill="url(#fogo)"/>')
+    # cartão (levemente torto, como se tivesse sido jogado na mesa)
+    cx, cy, cw, ch = 110, 36, 1000, 380
+    p.append(f'<g transform="rotate(-1.2 600 230)">')
+    p.append(f'<rect x="{cx+10}" y="{cy+16}" width="{cw}" height="{ch}" fill="#000" opacity=".6" filter="url(#sombra)"/>')
     p.append(f'<g filter="url(#pp)"><rect x="{cx}" y="{cy}" width="{cw}" height="{ch}" fill="url(#ppv)"/></g>')
-    p.append(f'<rect x="{cx+14}" y="{cy+14}" width="{cw-28}" height="{ch-28}" fill="none" stroke="{TINTA2}" stroke-width="2"/>')
-    p.append(f'<rect x="{cx+20}" y="{cy+20}" width="{cw-40}" height="{ch-40}" fill="none" stroke="{TINTA2}" stroke-width="1"/>')
-    # título com brilho passando
-    p.append(f'<text x="600" y="92" text-anchor="middle" font-family="{SERIF}" font-size="40" font-weight="bold" letter-spacing="10" fill="{TINTA}">GUILD CARD</text>')
-    p.append(f'<g clip-path="url(#tit)"><rect class="sh" x="-200" y="50" width="160" height="60" fill="url(#brilho)"/></g>')
-    p.append(f'<path d="M370 110 H830" stroke="{TINTA2}" stroke-width="1.5"/><path d="M590 110 l10 -6 l10 6 l-10 6z" fill="{GUILDA}"/>')
-    # brasão
-    p.append(f'<g class="bz">{brasao(270, 225, 1.25)}</g>')
-    # campos
-    campos = [('Caçador', 'Lucas Luiz  ·  licas.mp3'),
-              ('Formação', 'Full Stack Python — Projeto Farol'),
-              ('Cursos', 'Java Full Stack (EBAC) · IA (SENAI)'),
-              ('Caçadas', 'MHGU · MH4U · MHP3rd · MHFU')]
+    for (mx, my, r) in [(300, 360, 90), (930, 110, 70), (1040, 380, 60), (180, 90, 50)]:
+        p.append(f'<circle cx="{mx}" cy="{my}" r="{r}" fill="url(#mancha)"/>')
+    p.append(f'<rect x="{cx+16}" y="{cy+16}" width="{cw-32}" height="{ch-32}" fill="none" stroke="{TINTA2}" stroke-width="2.5"/>')
+    p.append(f'<rect x="{cx+24}" y="{cy+24}" width="{cw-48}" height="{ch-48}" fill="none" stroke="{TINTA2}" stroke-width="1"/>')
+    for (fx, fy, sx, sy) in [(cx+30, cy+30, 1, 1), (cx+cw-30, cy+30, -1, 1), (cx+30, cy+ch-30, 1, -1), (cx+cw-30, cy+ch-30, -1, -1)]:
+        p.append(filigrana(fx, fy, sx, sy, '#7a5a34'))
+    # título em ouro com contorno
+    p.append(f'<text x="640" y="112" text-anchor="middle" font-family="{SERIF}" font-size="50" font-weight="bold" letter-spacing="14" fill="url(#ouro)" stroke="#4a3010" stroke-width="1.6" paint-order="stroke">GUILD CARD</text>')
+    p.append(f'<g clip-path="url(#tit)"><rect class="sh" x="250" y="60" width="140" height="70" fill="url(#brilho)"/></g>')
+    p.append(f'<path d="M420 134 H600 M680 134 H860" stroke="#7a5a34" stroke-width="1.5"/>'
+             f'<path d="M640 124 l14 10 l-14 10 l-14 -10z" fill="{GUILDA}" stroke="#4a3010" stroke-width="1"/>'
+             f'<circle cx="610" cy="134" r="3" fill="#7a5a34"/><circle cx="670" cy="134" r="3" fill="#7a5a34"/>')
+    # medalhão com o retrato
+    mx, my = 280, 236
+    p.append(f'<g transform="translate({mx} {my})">')
+    p.append(f'<circle r="104" fill="#000" opacity=".25" transform="translate(4 6)"/>')
+    p.append(f'<circle r="100" fill="url(#ouro)" stroke="#4a3010" stroke-width="2"/>')
+    p.append(''.join(f'<rect x="-3" y="-99" width="6" height="10" fill="#6a4a14" transform="rotate({k*15})"/>' for k in range(24)))
+    p.append(f'<circle r="86" fill="#2a1c12"/>')
+    p.append(f'<image href="data:image/jpeg;base64,{foto}" x="-80" y="-80" width="160" height="160" clip-path="url(#rt)" preserveAspectRatio="xMidYMid slice"/>')
+    p.append(f'<circle r="80" fill="none" stroke="#f2d68a" stroke-width="2"/><circle r="86" fill="none" stroke="#4a3010" stroke-width="2"/>')
+    p.append('</g>')
+    # faixa com o apelido embaixo do medalhão
+    p.append(f'<g transform="translate({mx} {my+112})"><path d="M-112 -16 H112 L100 0 L112 16 H-112 L-100 0Z" fill="{GUILDA}" stroke="#4a1208" stroke-width="2"/>'
+             f'<path d="M-112 -16 l-18 4 l10 12 l-10 12 l18 -12z M112 -16 l18 4 l-10 12 l10 12 l-18 -12z" fill="#6a1a10"/>'
+             f'<text y="6" text-anchor="middle" font-family="{SERIF}" font-size="17" font-weight="bold" letter-spacing="4" fill="#f2d68a">LICAS.MP3</text></g>')
+    # nome e campos
+    p.append(f'<text x="440" y="190" font-family="{SERIF}" font-size="44" font-weight="bold" fill="{TINTA}">Lucas Luiz</text>')
+    p.append(f'<text x="442" y="216" font-family="{SERIF}" font-size="16" font-style="italic" fill="{TINTA2}">Caçador da Guilda · Bauru, SP</text>')
+    campos = [('FORMAÇÃO', 'Full Stack Python — Projeto Farol'),
+              ('CURSOS', 'Java Full Stack (EBAC) · IA (SENAI)'),
+              ('OFÍCIO', 'apps, sites e ferramentas com IA'),
+              ('CAÇADAS', 'MHGU · MH4U · MHP3rd · MHFU')]
     for i, (k, v) in enumerate(campos):
-        y = 160 + i * 46
-        p.append(f'<text x="430" y="{y}" font-family="{SERIF}" font-size="17" font-style="italic" fill="{TINTA2}">{k}</text>')
-        p.append(f'<text x="560" y="{y}" font-family="{SERIF}" font-size="22" fill="{TINTA}">{v}</text>')
-        p.append(f'<path d="M560 {y+10} H1040" stroke="{TINTA2}" stroke-width=".8" stroke-dasharray="2 4" opacity=".7"/>')
+        y = 262 + i * 36
+        p.append(f'<text x="442" y="{y}" font-family="{SERIF}" font-size="12" font-weight="bold" letter-spacing="3" fill="{GUILDA}">{k}</text>')
+        p.append(f'<text x="560" y="{y}" font-family="{SERIF}" font-size="20" fill="{TINTA}">{v}</text>')
+        p.append(f'<path d="M560 {y+11} H990" stroke="{TINTA2}" stroke-width=".8" stroke-dasharray="1 4" opacity=".8"/>')
     # selo de cera
-    p.append(f'<g transform="translate(1010 300)"><g class="selo"><circle r="34" fill="{GUILDA}"/><circle r="27" fill="none" stroke="#5e1a10" stroke-width="2"/>'
-             f'<path d="M-30 -10 q-10 4 -8 14 M30 12 q10 -2 8 -12 M-8 32 q4 10 14 6" stroke="{GUILDA}" stroke-width="7" stroke-linecap="round" fill="none"/>'
-             f'<text y="9" text-anchor="middle" font-family="{SERIF}" font-size="26" font-weight="bold" fill="#e9b9a8">L</text></g></g>')
-    p.append(brasas(W, H, 26, H + 4))
+    p.append(f'<g transform="translate(1030 352)"><g class="selo">'
+             f'<path d="M-40 4 q-10 14 -2 22 q8 -2 6 -14z M30 26 q8 14 18 8 q-4 -10 -14 -12z M-6 40 q2 12 12 12 q2 -8 -6 -14z" fill="#7a1e12"/>'
+             f'<circle r="42" fill="url(#cera)"/><circle r="32" fill="none" stroke="#5a160c" stroke-width="2.5"/><circle r="32" fill="none" stroke="#e08a78" stroke-width="1" opacity=".4" transform="translate(-1 -1)"/>'
+             f'{brasao(0, 0, .42, "#5a160c")}</g></g>')
+    p.append('</g>')
+    # poeira na luz e brasas
+    for i in range(18):
+        x = random.randrange(120, 1080); y = random.randrange(60, 400); d = round(random.uniform(7, 12), 1); b = round(random.uniform(0, 10), 1)
+        p.append(f'<circle class="po" style="animation-duration:{d}s;animation-delay:-{b}s" cx="{x}" cy="{y}" r="1.4" fill="#fff3d0"/>')
+    p.append(brasas(W, H, 30, H + 4))
+    p.append(f'<rect width="{W}" height="{H}" fill="url(#vin)"/>')
     css = (CSS_BRASA +
-           '.sh{animation:sh 5s ease-in-out infinite}@keyframes sh{0%,40%{transform:translateX(0)}100%{transform:translateX(1100px)}}'
-           '.fg{animation:fg 2.6s ease-in-out infinite}@keyframes fg{50%{opacity:.6}}'
-           '.selo{transform-box:fill-box;transform-origin:center;animation:selo 6s ease-in-out infinite}@keyframes selo{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(-2deg)}}'
-           '.bz{animation:bz 4s ease-in-out infinite}@keyframes bz{50%{opacity:.85}}')
+           '.sh{animation:sh 6s ease-in-out infinite}@keyframes sh{0%,45%{transform:translateX(0)}100%{transform:translateX(620px)}}'
+           '.fg{animation:fg 3.1s ease-in-out infinite}@keyframes fg{0%,100%{opacity:1}23%{opacity:.75}41%{opacity:.95}63%{opacity:.7}81%{opacity:.9}}'
+           '.selo{animation:selo 7s ease-in-out infinite}@keyframes selo{0%,100%{transform:rotate(-10deg)}50%{transform:rotate(-4deg)}}'
+           '.po{animation:po 9s ease-in-out infinite;opacity:0}@keyframes po{0%{transform:translate(0,0);opacity:0}30%{opacity:.55}70%{opacity:.35}100%{transform:translate(30px,-40px);opacity:0}}')
     salvar('guild-card.svg', W, H, ''.join(p), css)
 
 # ================= TÍTULOS DE SEÇÃO =================
@@ -172,16 +227,42 @@ def treinamentos():
     css = '.it{animation:it 4s ease-in-out infinite}@keyframes it{0%,100%{opacity:1}8%{opacity:.55}16%{opacity:1}}'
     salvar('treinamentos.svg', W, H, ''.join(p), css)
 
-# ================= RODAPÉ =================
+# ================= RODAPÉ (QUEST COMPLETE) =================
 def rodape():
-    W, H = 900, 150
-    p = [f'<defs><radialGradient id="f" cx=".5" cy=".9" r=".6"><stop offset="0" stop-color="#ff8a2a" stop-opacity=".45"/><stop offset="1" stop-color="#ff8a2a" stop-opacity="0"/></radialGradient></defs>',
-         f'<rect width="{W}" height="{H}" rx="10" fill="{MADEIRA}"/>',
-         f'<rect width="{W}" height="{H}" rx="10" fill="url(#f)" class="fg"/>',
-         f'<text x="{W//2}" y="64" text-anchor="middle" font-family="{SERIF}" font-size="34" font-style="italic" font-weight="bold" fill="{OURO2}">Happy hunting!</text>',
-         f'<text x="{W//2}" y="96" text-anchor="middle" font-family="{SERIF}" font-size="16" fill="#c8b48e">nos vemos na próxima caçada</text>',
-         brasas(W, H, 14, H + 4)]
-    css = CSS_BRASA + '.fg{animation:fg 2.6s ease-in-out infinite}@keyframes fg{50%{opacity:.55}}'
+    W, H = 1200, 300
+    p = [f'<defs>{madeira("veio")}{OURO_GRAD}'
+         f'<linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e1d11"/><stop offset="1" stop-color="#120a05"/></linearGradient>'
+         f'<radialGradient id="luz" cx=".5" cy=".42" r=".55"><stop offset="0" stop-color="#ffcf6b" stop-opacity=".45"/><stop offset="1" stop-color="#ffcf6b" stop-opacity="0"/></radialGradient>'
+         f'<radialGradient id="vin" cx=".5" cy=".5" r=".72"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".75"/></radialGradient>'
+         f'<linearGradient id="fita" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b23a2a"/><stop offset=".5" stop-color="#8c2a1c"/><stop offset="1" stop-color="#5e1a10"/></linearGradient>'
+         f'<linearGradient id="brilho" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>'
+         f'<clipPath id="tq"><text x="600" y="150" text-anchor="middle" font-family="{SERIF}" font-size="58" font-weight="bold" letter-spacing="10">QUEST COMPLETE</text></clipPath></defs>',
+         f'<rect width="{W}" height="{H}" rx="14" fill="url(#fundo)"/>',
+         f'<rect width="{W}" height="{H}" rx="14" fill="#000" filter="url(#veio)"/>',
+         f'<rect class="lz" width="{W}" height="{H}" fill="url(#luz)"/>']
+    # raios de luz girando atrás da faixa
+    raios = ''.join(f'<path d="M0 0 L{round(700*__import__("math").cos(__import__("math").radians(k*15-1.5)),1)} {round(700*__import__("math").sin(__import__("math").radians(k*15-1.5)),1)} '
+                    f'L{round(700*__import__("math").cos(__import__("math").radians(k*15+1.5)),1)} {round(700*__import__("math").sin(__import__("math").radians(k*15+1.5)),1)}Z"/>' for k in range(24))
+    p.append(f'<g transform="translate(600 130)"><g class="rz" fill="#ffd98a" opacity=".06">{raios}</g></g>')
+    # faixa vermelha com pontas dobradas
+    p.append(f'<g class="pop"><path d="M250 92 H950 L930 132 L950 172 H250 L270 132Z" fill="url(#fita)" stroke="#3e0e06" stroke-width="2"/>'
+             f'<path d="M250 92 l-50 14 l22 26 l-22 26 l50 14z M950 92 l50 14 l-22 26 l22 26 l-50 14z" fill="#5e1a10" stroke="#3e0e06" stroke-width="2"/>'
+             f'<path d="M262 100 H938 M262 164 H938" stroke="#f2d68a" stroke-width="1.5" opacity=".7"/>'
+             f'<text x="600" y="150" text-anchor="middle" font-family="{SERIF}" font-size="58" font-weight="bold" letter-spacing="10" fill="url(#ouro)" stroke="#3e0e06" stroke-width="2" paint-order="stroke">QUEST COMPLETE</text>'
+             f'<g clip-path="url(#tq)"><rect class="sh" x="200" y="90" width="150" height="80" fill="url(#brilho)"/></g></g>')
+    # brilhos (estrelinhas de 4 pontas)
+    for i, (x, y, d) in enumerate([(230, 70, 0), (980, 80, .7), (300, 200, 1.4), (900, 205, 2.1), (600, 62, 1.0), (1040, 150, 2.6), (160, 150, 1.8)]):
+        p.append(f'<g transform="translate({x} {y})"><path class="tw" style="animation-delay:{d}s" d="M0 -12 L3 -3 L12 0 L3 3 L0 12 L-3 3 L-12 0 L-3 -3Z" fill="#fff3c4"/></g>')
+    p.append(f'<text x="600" y="232" text-anchor="middle" font-family="{SERIF}" font-size="30" font-style="italic" font-weight="bold" fill="#f2d68a">Happy hunting!</text>')
+    p.append(f'<text x="600" y="262" text-anchor="middle" font-family="{SERIF}" font-size="16" letter-spacing="2" fill="#c8b48e">obrigado pela visita · nos vemos na próxima caçada</text>')
+    p.append(brasas(W, H, 22, H + 4))
+    p.append(f'<rect width="{W}" height="{H}" rx="14" fill="url(#vin)"/>')
+    css = (CSS_BRASA +
+           '.rz{animation:rz 40s linear infinite}@keyframes rz{to{transform:rotate(360deg)}}'
+           '.lz{animation:lz 3s ease-in-out infinite}@keyframes lz{50%{opacity:.6}}'
+           '.pop{transform-origin:600px 132px;animation:pop 6s cubic-bezier(.2,1.4,.4,1) infinite}@keyframes pop{0%{transform:scale(.6);opacity:0}8%{transform:scale(1.04);opacity:1}14%,100%{transform:scale(1);opacity:1}}'
+           '.sh{animation:sh 6s ease-in-out infinite}@keyframes sh{0%,20%{transform:translateX(0)}60%,100%{transform:translateX(700px)}}'
+           '.tw{transform-box:fill-box;transform-origin:center;animation:tw 2.8s ease-in-out infinite}@keyframes tw{0%,100%{transform:scale(.2);opacity:0}50%{transform:scale(1);opacity:1}}')
     salvar('rodape.svg', W, H, ''.join(p), css)
 
 guild_card()

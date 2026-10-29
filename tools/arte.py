@@ -72,8 +72,8 @@ def guild_card():
     p.append(f'<g class="bz">{brasao(270, 225, 1.25)}</g>')
     # campos
     campos = [('Caçador', 'Lucas Luiz  ·  licas.mp3'),
-              ('Formação', 'Curso de Inteligência Artificial — SENAI'),
-              ('Ofício', 'apps, sites e ferramentas com IA'),
+              ('Formação', 'Full Stack Python — Projeto Farol'),
+              ('Cursos', 'Java Full Stack (EBAC) · IA (SENAI)'),
               ('Caçadas', 'MHGU · MH4U · MHP3rd · MHFU')]
     for i, (k, v) in enumerate(campos):
         y = 160 + i * 46
@@ -103,8 +103,8 @@ def titulo(nome, t):
     salvar(nome, W, H, ''.join(p), css)
 
 # ================= QUESTS (projetos) =================
-def quest(nome, estrelas, titulo_, objetivo, local, cliente, carimbo):
-    W, H = 580, 260
+def quest(nome, estrelas, titulo_, objetivo, local, cliente, carimbo, cacadores='Lucas'):
+    W, H = 580, 286
     p = [f'<defs>{defs_papel("pp")}</defs>',
          f'<rect x="10" y="14" width="{W-20}" height="{H-22}" fill="#000" opacity=".4"/>',
          f'<g filter="url(#pp)"><rect x="4" y="6" width="{W-20}" height="{H-22}" fill="url(#ppv)"/></g>',
@@ -115,13 +115,13 @@ def quest(nome, estrelas, titulo_, objetivo, local, cliente, carimbo):
              + ''.join(f'<tspan class="st" style="animation-delay:{i*.18}s">★</tspan>' for i in range(estrelas)) + '</text>')
     p.append(f'<text x="32" y="92" font-family="{SERIF}" font-size="30" font-weight="bold" fill="{TINTA}">{titulo_}</text>')
     p.append(f'<path d="M32 104 H{W-52}" stroke="{TINTA2}" stroke-width="1"/>')
-    linhas = [('Objetivo', objetivo), ('Local', local), ('Cliente', cliente)]
+    linhas = [('Objetivo', objetivo), ('Local', local), ('Cliente', cliente), ('Caçadores', cacadores)]
     y = 132
     for k, v in linhas:
         for j, parte in enumerate(v if isinstance(v, list) else [v]):
             if j == 0:
                 p.append(f'<text x="32" y="{y}" font-family="{SERIF}" font-size="14" font-style="italic" fill="{TINTA2}">{k}</text>')
-            p.append(f'<text x="118" y="{y}" font-family="{SERIF}" font-size="16" fill="{TINTA}">{parte}</text>')
+            p.append(f'<text x="122" y="{y}" font-family="{SERIF}" font-size="16" fill="{TINTA}">{parte}</text>')
             y += 24
         y += 4
     cor = GUILDA if carimbo == 'PRIVADA' else '#2e5a3a'
@@ -130,6 +130,47 @@ def quest(nome, estrelas, titulo_, objetivo, local, cliente, carimbo):
     css = ('.st{animation:st 2.4s ease-in-out infinite}@keyframes st{0%,70%,100%{fill:' + GUILDA + '}80%{fill:' + OURO + '}}'
            '.ca{animation:ca 5s ease-in-out infinite}@keyframes ca{0%,100%{opacity:1}50%{opacity:.75}}')
     salvar(nome, W, H, ''.join(p), css)
+
+# ================= PLACA DO GORE MAGALA =================
+def placa_gore():
+    W, H = 900, 150
+    ROXO, ROXO2 = '#7a3cff', '#c18cff'
+    p = [f'<defs><radialGradient id="aura" cx=".5" cy=".5" r=".6"><stop offset="0" stop-color="{ROXO}" stop-opacity=".55"/><stop offset="1" stop-color="{ROXO}" stop-opacity="0"/></radialGradient>'
+         f'<linearGradient id="fd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0d0812"/><stop offset=".5" stop-color="#1c1026"/><stop offset="1" stop-color="#0d0812"/></linearGradient></defs>',
+         f'<rect width="{W}" height="{H}" rx="10" fill="url(#fd)"/>',
+         f'<ellipse class="au" cx="{W//2}" cy="{H//2}" rx="380" ry="80" fill="url(#aura)"/>',
+         f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="10" fill="none" stroke="{ROXO}" stroke-opacity=".5" stroke-width="2"/>']
+    # partículas do vírus frenético subindo
+    for i in range(34):
+        x = random.randrange(30, W - 30); d = round(random.uniform(3, 6), 1); b = round(random.uniform(0, 6), 1)
+        p.append(f'<circle class="vi" style="animation-duration:{d}s;animation-delay:-{b}s" cx="{x}" cy="{H+6}" r="{random.choice([1.5,2,2.5,3])}" fill="{random.choice([ROXO, ROXO2, "#e2c6ff"])}"/>')
+    p.append(f'<text x="{W//2}" y="64" text-anchor="middle" font-family="{SERIF}" font-size="15" letter-spacing="8" fill="{ROXO2}">O MONSTRO MAIS AURA</text>')
+    p.append(f'<text class="nm" x="{W//2}" y="112" text-anchor="middle" font-family="{SERIF}" font-size="46" font-weight="bold" letter-spacing="12" fill="#f1e6ff">GORE MAGALA</text>')
+    css = ('.au{transform-box:fill-box;transform-origin:center;animation:au 3.2s ease-in-out infinite}@keyframes au{50%{transform:scale(1.12);opacity:.6}}'
+           '.vi{animation:vi 5s linear infinite;opacity:0}@keyframes vi{0%{transform:translate(0,0);opacity:0}15%{opacity:.9}100%{transform:translate(-14px,-150px);opacity:0}}'
+           '.nm{animation:nm 3.2s ease-in-out infinite}@keyframes nm{50%{fill:#c18cff}}')
+    salvar('placa-gore-magala.svg', W, H, ''.join(p), css)
+
+# ================= TREINAMENTOS (formação) =================
+def treinamentos():
+    W, H = 900, 300
+    itens = [('Full Stack Python', 'Projeto Farol — Associação Wise Madness, Bauru', 'CONCLUÍDO'),
+             ('Java Full Stack', 'EBAC — Java, HTML, CSS e JavaScript', 'CONCLUÍDO'),
+             ('Inteligência Artificial', 'SENAI', 'CONCLUÍDO'),
+             ('Todo o resto', 'na raça: projeto atrás de projeto', 'SEMPRE')]
+    p = [f'<defs>{defs_papel("pp")}</defs>',
+         f'<rect x="10" y="12" width="{W-20}" height="{H-20}" fill="#000" opacity=".4"/>',
+         f'<g filter="url(#pp)"><rect x="4" y="4" width="{W-20}" height="{H-20}" fill="url(#ppv)"/></g>',
+         f'<text x="40" y="48" font-family="{SERIF}" font-size="14" font-style="italic" letter-spacing="2" fill="{TINTA2}">Registro da Área de Treinamento</text>',
+         f'<path d="M40 60 H{W-56}" stroke="{TINTA2}" stroke-width="1"/>']
+    for i, (t, d, st) in enumerate(itens):
+        y = 98 + i * 52
+        p.append(f'<g class="it" style="animation-delay:{i*.35}s"><path d="M44 {y-12} l10 10 l16 -20" fill="none" stroke="{GUILDA}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
+                 f'<text x="86" y="{y}" font-family="{SERIF}" font-size="21" font-weight="bold" fill="{TINTA}">{t}</text>'
+                 f'<text x="86" y="{y+20}" font-family="{SERIF}" font-size="15" fill="{TINTA2}">{d}</text>'
+                 f'<text x="{W-60}" y="{y+4}" text-anchor="end" font-family="{SERIF}" font-size="13" font-weight="bold" letter-spacing="3" fill="{GUILDA if st == "SEMPRE" else "#2e5a3a"}">{st}</text></g>')
+    css = '.it{animation:it 4s ease-in-out infinite}@keyframes it{0%,100%{opacity:1}8%{opacity:.55}16%{opacity:1}}'
+    salvar('treinamentos.svg', W, H, ''.join(p), css)
 
 # ================= RODAPÉ =================
 def rodape():
@@ -144,6 +185,9 @@ def rodape():
     salvar('rodape.svg', W, H, ''.join(p), css)
 
 guild_card()
+placa_gore()
+treinamentos()
+titulo('t-treino.svg', 'TREINAMENTO')
 titulo('t-sobre.svg', 'SOBRE MIM')
 titulo('t-quests.svg', 'QUADRO DE QUESTS')
 titulo('t-monstros.svg', 'MONSTROS FAVORITOS')
@@ -154,7 +198,7 @@ quest('quest-clawdeck.svg', 6, 'Clawdeck',
       'Mac · Windows · Linux', 'Quem programa com IA', 'ABERTA')
 quest('quest-mhlauncher.svg', 7, 'MHLAUNCHER',
       ['Os ports de Monster Hunter no PC', 'num lugar só, em português'],
-      'Windows · Linux', 'Todo caçador do Brasil', 'ABERTA')
+      'Windows · Linux', 'Todo caçador do Brasil', 'ABERTA', 'Lucas &amp; Ataenas')
 quest('quest-neurocraft.svg', 5, 'Neurocraft',
       ['Bots que jogam Minecraft de verdade:', 'minerando, craftando e construindo'],
       'Node.js · Mineflayer · Claude', 'Servidor dos amigos', 'PRIVADA')

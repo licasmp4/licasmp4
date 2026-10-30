@@ -11,11 +11,20 @@
 
 Oi! Eu sou o **Lucas**, mas na internet é **licas.mp3**.
 
-Gosto de construir coisas com IA: apps, sites e ferramentas que eu mesmo uso no dia a dia. Pego uma ideia e vou até o fim, do primeiro rascunho ao instalador pronto.
+Gosto muito de jogos e de criar apps e sites, quase sempre com IA do meu lado. Pego uma ideia e vou até o fim, do primeiro rascunho ao instalador pronto. Ultimamente também estou me aventurando em **design**.
 
-Sou apaixonado por **jogos low-poly**. Aquela cara de PS1 e PS2 me dá um conforto difícil de explicar, ainda mais quando vem junto com uma estética bizarra e meio sonho, meio pesadelo. Também jogo muito **Monster Hunter**: traduzi o 4 Ultimate e o Generations Ultimate pra português, e estou fazendo o **MHLAUNCHER** junto com a minha amiga [@Ataenas](https://github.com/Ataenas).
+Agora estou fazendo o **MHLAUNCHER** junto com a minha amiga [@Ataenas](https://github.com/Ataenas).
 
-Fora isso, curto áudio de alta fidelidade, hardware e fazer live na Twitch.
+<div align="center">
+<table>
+<tr>
+<td align="center" width="25%"><img src="assets/o-olho.gif" width="130" alt="Olho low-poly com asas olhando pra todo lado" /><br><sub><i>ele te observa</i></sub></td>
+<td align="center" width="25%"><img src="assets/o-urso.gif" width="130" alt="Ursinho costurado com um olho de botão" /><br><sub><i>costurado com carinho</i></sub></td>
+<td align="center" width="25%"><img src="assets/o-bebe.gif" width="130" alt="Bebê-anjo dormindo que às vezes abre um olho" /><br><sub><i>shh, não acorda ele</i></sub></td>
+<td align="center" width="25%"><img src="assets/o-flor.gif" width="130" alt="Flor sorrindo com dentes demais" /><br><sub><i>sorria :)</i></sub></td>
+</tr>
+</table>
+</div>
 
 <img src="assets/t-formacao.svg" width="100%" alt="Formação" />
 
@@ -34,27 +43,25 @@ Fora isso, curto áudio de alta fidelidade, hardware e fazer live na Twitch.
 <img src="assets/card-earshare.gif" width="49%" alt="EarShare — vários fones, uma música (privado)" />
 </div>
 
-<img src="assets/t-jogos.svg" width="100%" alt="Jogos que me confortam" />
+<img src="assets/t-hobbies.svg" width="100%" alt="Hobbies" />
+
+<img src="assets/quarto.gif" width="100%" alt="Quarto low-poly de madrugada: TV de tubo ligada, controle no tapete, fone na cama e neve lá fora" />
+
+Jogo de tudo um pouco, mas o que me pega mesmo são os **jogos de história**, os **jogos de grind** e, acima de tudo, o **terror**.
+
+No terror, o meu lugar é o low-poly com cara de PS1, estranho e meio sonho. **Mama's Sleeping Angels** é o meu favorito, e logo atrás vêm Cry of Fear, Afraid of Monsters, Nun Massacre, Gloomwood e Stay Out of the House. No grind, é **Monster Hunter**: gostei tanto que traduzi o 4 Ultimate e o Generations Ultimate pra português.
+
+Fora dos jogos, **estudo áudio por hobby** (fones, hi-fi e como o som funciona) e de vez em quando faço live na Twitch.
 
 <div align="center">
-<a href="https://store.steampowered.com/app/2918310/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2918310/90b47fae2d1f4892049c57f7bf43a39e2df816a8/header.jpg" width="70%" alt="Mama's Sleeping Angels" /></a>
-
-<sub><b>Mama's Sleeping Angels</b>: o que mais me encanta (˘ω˘)</sub>
-
-<br><br>
-
 <table>
 <tr>
-<td align="center" width="50%"><a href="https://store.steampowered.com/app/223710/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/223710/header.jpg" width="100%" alt="Cry of Fear" /></a><br><sub><b>Cry of Fear</b></sub></td>
-<td align="center" width="50%"><a href="https://store.steampowered.com/app/1150760/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1150760/7a2817598e2e5882de17299ce013638a2b35a3f9/header.jpg" width="100%" alt="Gloomwood" /></a><br><sub><b>Gloomwood</b></sub></td>
-</tr>
-<tr>
-<td align="center"><a href="https://store.steampowered.com/app/896520/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/896520/header.jpg" width="100%" alt="Stay Out of the House" /></a><br><sub><b>Stay Out of the House</b></sub></td>
-<td align="center"><a href="https://store.steampowered.com/app/582010/"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg" width="100%" alt="Monster Hunter: World" /></a><br><sub><b>Monster Hunter</b></sub></td>
+<td align="center" width="25%"><img src="assets/o-coracao.gif" width="130" alt="Coração com curativo, batendo e pingando" /><br><sub><i>ainda bate</i></sub></td>
+<td align="center" width="25%"><img src="assets/o-coelho.gif" width="130" alt="Coelhinho de olhos em X chorando" /><br><sub><i>tá tudo bem</i></sub></td>
+<td align="center" width="25%"><img src="assets/o-tv.gif" width="130" alt="TV de pernas com um sorriso que cresce demais" /><br><sub><i>boa noite!</i></sub></td>
+<td align="center" width="25%"><img src="assets/o-mao.gif" width="130" alt="Mão com um olho na palma acenando" /><br><sub><i>oi (˘ω˘)</i></sub></td>
 </tr>
 </table>
-
-<sub>e também <b>Afraid of Monsters</b> e <b>Nun Massacre</b></sub>
 </div>
 
 <img src="assets/t-ferramentas.svg" width="100%" alt="Ferramentas" />

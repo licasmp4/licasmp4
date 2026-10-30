@@ -570,10 +570,10 @@ function cartao() {
     });
   }
   const dados = {
-    clawdeck: ['Clawdeck', ['Os terminais do Claude Code,', 'o site e o celular num app só.'], ['Mac', 'Windows', 'Linux'], 'ABERTO', 'person', 'program'],
-    mhlauncher: ['MHLAUNCHER', ['Os ports de Monster Hunter no', 'PC, em português. Com a Ataenas.'], ['C#', 'Windows', 'Linux'], 'ABERTO', 'weapon', 'great sword'],
-    neurocraft: ['Neurocraft', ['Bots que jogam Minecraft de', 'verdade: minerando e construindo.'], ['Node.js', 'Mineflayer', 'Claude'], 'PRIVADO', 'monster', 'brain'],
-    earshare: ['EarShare', ['Vários fones, uma música.', 'Cada um do seu jeito.'], ['Swift', 'macOS'], 'PRIVADO', 'object', 'headphones'],
+    clawdeck: ['Clawdeck', ['meus terminais do claude, o', 'site e o celular num app só'], ['Mac', 'Windows', 'Linux'], 'ABERTO', 'person', 'program'],
+    mhlauncher: ['MHLAUNCHER', ['monster hunter no pc em pt-br,', 'fazendo junto com a ataenas'], ['C#', 'Windows', 'Linux'], 'ABERTO', 'weapon', 'great sword'],
+    neurocraft: ['Neurocraft', ['bots que jogam minecraft', 'sozinhos: minerando, construindo'], ['Node.js', 'Mineflayer', 'Claude'], 'PRIVADO', 'monster', 'brain'],
+    earshare: ['EarShare', ['vários fones tocando a mesma', 'música, cada um do seu jeito'], ['Swift', 'macOS'], 'PRIVADO', 'object', 'headphones'],
   }[qual];
   window.N = 72;
   window.quadro = (i) => {
@@ -792,7 +792,7 @@ function quarto() {
     flocosJ.forEach(([x, y0, v, f]) => { const y = ((y0 + t * v) % 1) * 48; c.fillStyle = '#fff'; c.fillRect((x + Math.sin(t * TAU * v + f) * 2 + 40) % 40 | 0, y | 0, 1, 1); });
     janT.needsUpdate = true;
   }
-  const falas = ['Só mais uma partida e eu durmo.', 'Você ouviu isso também?', 'Por favor, tome cuidado.'];
+  const falas = ['só mais uma partida e eu durmo', 'vc ouviu isso tb?', 'por favor, toma cuidado.'];
 
   window.N = 90;
   window.quadro = (i) => {

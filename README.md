@@ -11,11 +11,11 @@
 
 <img src="assets/cabra.gif" align="right" width="168" alt="Cabra low-poly pálida de olhos pretos enormes, piscando devagar" />
 
-Oi! Eu sou o **Lucas**, mas na internet é **licas.mp3**.
+oi, sou o **lucas** (ou **licas.mp3** por aí)
 
-Gosto muito de jogos e de criar apps e sites, quase sempre com IA do meu lado. Pego uma ideia e vou até o fim, do primeiro rascunho ao instalador pronto. Ultimamente também estou me aventurando em **design**.
+gosto mt de jogo e de criar app e site, quase sempre com ia junto. quando pego uma ideia eu vou até o fim kkk. agora tô me aventurando em **design** tb, ainda aprendendo
 
-Agora estou fazendo o **MHLAUNCHER** junto com a minha amiga [@Ataenas](https://github.com/Ataenas).
+no momento tô fazendo o **MHLAUNCHER** com a minha amiga [@Ataenas](https://github.com/Ataenas)
 
 <div align="center">
 <table>
@@ -34,7 +34,7 @@ Agora estou fazendo o **MHLAUNCHER** junto com a minha amiga [@Ataenas](https://
 <img src="assets/formacao.svg" width="100%" alt="Full Stack Python no Projeto Farol (Associação Wise Madness, Bauru), Java Full Stack na EBAC, Inteligência Artificial no SENAI, e o resto aprendido por conta própria" />
 </div>
 
-<sub>O Projeto Farol é da <a href="https://wisemadness.org.br">Wise Madness</a>, uma ONG aqui de Bauru.</sub>
+<sub>o projeto farol é da <a href="https://wisemadness.org.br">wise madness</a>, uma ong aqui de bauru</sub>
 
 <img src="assets/t-projetos.svg" width="100%" alt="Memórias / projetos" />
 
@@ -49,11 +49,13 @@ Agora estou fazendo o **MHLAUNCHER** junto com a minha amiga [@Ataenas](https://
 
 <img src="assets/quarto.gif" width="100%" alt="Quarto low-poly de madrugada: TV de tubo ligada, controle no tapete, fone na cama e neve lá fora" />
 
-Jogo de tudo um pouco, mas o que me pega mesmo são os **jogos de história**, os **jogos de grind** e, acima de tudo, o **terror**.
+jogo de tudo, mas oq eu curto mesmo é jogo com **história** boa, jogo de **grind** e **terror**. terror principalmente
 
-No terror, o meu lugar é o low-poly com cara de PS1, estranho e meio sonho. **Mama's Sleeping Angels** é o meu favorito, e logo atrás vêm **Tower of Tears**, Cry of Fear, Afraid of Monsters, Nun Massacre, Gloomwood e Stay Out of the House. No grind, é **Monster Hunter**: gostei tanto que traduzi o 4 Ultimate e o Generations Ultimate pra português.
+sou apaixonado por terror low-poly, aquela cara de ps1 meio bizarra me deixa confortável sla. **mama's sleeping angels** é o meu favorito disparado, depois vem **tower of tears**, cry of fear, afraid of monsters, nun massacre, gloomwood, stay out of the house...
 
-Fora dos jogos, **estudo áudio por hobby** (fones, hi-fi e como o som funciona) e de vez em quando faço live na Twitch.
+de grind é **monster hunter**, joguei tanto que acabei traduzindo o 4u e o gu pra pt-br
+
+fora isso estudo **áudio** por hobby (fone, hi-fi, essas coisas) e às vezes faço live na twitch
 
 <div align="center">
 <table>

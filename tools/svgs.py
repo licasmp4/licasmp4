@@ -101,6 +101,6 @@ camada('t-formacao.svg', 2, 'Formação', ['sono leve: 12%', 'fusos do sono', 'm
 camada('t-projetos.svg', 3, 'Memórias', ['sono profundo: 40%', 'ondas delta', 'objetos: 04'], '(°ω°)')
 camada('t-hobbies.svg', 4, 'Hobbies', ['REM: 61%', 'movimento ocular', 'sonhando...'], '(°□°)')
 camada('t-ferramentas.svg', 5, 'Ferramentas', ['REM: 78%', 'curses: nenhuma', 'itens: 18'], '(•ω•)')
-camada('t-atividade.svg', 6, 'Atividade', ['acordando: 93%', 'ondas alfa', 'não olhe pra trás'], '(;ω;)')
+camada('t-atividade.svg', 6, 'Atividade', ['acordando: 93%', 'ondas alfa', 'quase lá...'], '(˘ω˘)')
 camada('t-visitas.svg', 7, 'Livro de visitas', ['acordado: 100%', 'alguém passou aqui', 'deixa teu nome'], '(˘ω˘)')
 formacao()

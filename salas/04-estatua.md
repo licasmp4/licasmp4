@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/o-estatua.webp" width="240" alt="a estátua sem rosto virando a cabeça pra você e chorando sangue" />
+<img src="../assets/o-estatua.webp" width="240" alt="a estátua sem rosto virando a cabeça devagar pra você" />
 
 ela tava te esperando.
 

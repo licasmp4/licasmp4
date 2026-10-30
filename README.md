@@ -4,7 +4,7 @@
 
 <img src="assets/vhs.webp" width="100%" alt="fita VHS começando: PLAY, chiado e o nome licas.mp3" />
 
-<img src="assets/heroi.webp" width="100%" alt="Quarto escuro low-poly: um menino de fone no foco de luz e uma coisa cheia de dentes chegando por trás quando a lâmpada falha" />
+<img src="assets/heroi.webp" width="100%" alt="quarto low-poly no entardecer: um menino de fone no foco de luz e um bicho grandão de gorro dormindo atrás dele" />
 
 <a href="https://www.twitch.tv/licasmp4"><img src="https://img.shields.io/badge/twitch-licasmp4-1a1a1e?style=for-the-badge&logo=twitch&logoColor=d8d0c4&labelColor=050507" alt="Twitch" /></a>
 <a href="https://www.instagram.com/licas.mp4"><img src="https://img.shields.io/badge/instagram-licas.mp4-1a1a1e?style=for-the-badge&logo=instagram&logoColor=d8d0c4&labelColor=050507" alt="Instagram" /></a>
@@ -28,10 +28,10 @@ no momento tô fazendo o **MHLAUNCHER** com a minha amiga [@Ataenas](https://git
 <div align="center">
 <table>
 <tr>
-<td align="center" width="25%"><img src="assets/o-cabecao.webp" width="130" alt="Menino de cabeção e fone, com olhos ocos, chorando sangue" /><br><sub><b>person</b> · eu, às 3 da manhã</sub></td>
-<td align="center" width="25%"><img src="assets/o-carne.webp" width="130" alt="Coração de carne com veias andando em perninhas" /><br><sub><b>monster</b> · coração andante</sub></td>
-<td align="center" width="25%"><img src="assets/o-estatua.webp" width="130" alt="Estátua sem rosto que vira a cabeça e chora sangue" /><br><sub><b>painting</b> · a estátua que olha</sub></td>
-<td align="center" width="25%"><img src="assets/o-mascara.webp" width="130" alt="Máscara de metal azul sorrindo com dentes, num capuz preto" /><br><sub><b>monster</b> · o sorriso</sub></td>
+<td align="center" width="25%"><img src="assets/o-cabecao.webp" width="130" alt="menino de cabeção e fone com uma estrelinha girando" /><br><sub><b>person</b> · eu, às 3 da manhã</sub></td>
+<td align="center" width="25%"><img src="assets/o-olho.webp" width="130" alt="olho com asas olhando pra todo lado" /><br><sub><b>monster</b> · ele te observa</sub></td>
+<td align="center" width="25%"><img src="assets/o-urso.webp" width="130" alt="ursinho costurado com um olho de botão" /><br><sub><b>person</b> · costurado com carinho</sub></td>
+<td align="center" width="25%"><img src="assets/o-estatua.webp" width="130" alt="estátua sem rosto que vira a cabeça devagar" /><br><sub><b>painting</b> · a estátua que olha</sub></td>
 </tr>
 </table>
 </div>
@@ -72,10 +72,10 @@ fora isso estudo **áudio** por hobby (fone, hi-fi, essas coisas) e às vezes fa
 <div align="center">
 <table>
 <tr>
-<td align="center" width="25%"><img src="assets/o-saco.webp" width="130" alt="Criatura de cabeça de saco com sorriso costurado" /><br><sub><b>monster</b> · sorriso costurado</sub></td>
-<td align="center" width="25%"><img src="assets/o-quadro.webp" width="130" alt="Pintura de um olho no meio das nuvens" /><br><sub><b>painting</b> · o olho nas nuvens</sub></td>
-<td align="center" width="25%"><img src="assets/o-boca.webp" width="130" alt="Pedaço de carne com uma boca cheia de dentes" /><br><sub><b>curse</b> · fome</sub></td>
-<td align="center" width="25%"><img src="assets/o-pager.webp" width="130" alt="Pager do sonho com amuletos no chaveiro" /><br><sub><b>item</b> · pager do sonho</sub></td>
+<td align="center" width="25%"><img src="assets/o-saco.webp" width="130" alt="criatura de cabeça de saco com sorriso costurado" /><br><sub><b>monster</b> · sorriso costurado</sub></td>
+<td align="center" width="25%"><img src="assets/o-quadro.webp" width="130" alt="pintura de um olho no meio das nuvens" /><br><sub><b>painting</b> · o olho nas nuvens</sub></td>
+<td align="center" width="25%"><img src="assets/o-flor.webp" width="130" alt="flor sorrindo com dentes demais" /><br><sub><b>curse</b> · sorria :)</sub></td>
+<td align="center" width="25%"><img src="assets/o-pager.webp" width="130" alt="pager do sonho com amuletos no chaveiro" /><br><sub><b>item</b> · pager do sonho</sub></td>
 </tr>
 </table>
 
@@ -132,7 +132,7 @@ só o nome de usuário vai pra parede, pode ficar tranquilo
 
 <div align="center">
 
-<img src="assets/corredor.webp" width="100%" alt="Corredor florido com estátuas sem rosto e uma criatura de saco esperando no fim: e o sonho continua." />
+<img src="assets/corredor.webp" width="100%" alt="corredor florido com estátuas sem rosto e uma criatura de saco no fim: e o sonho continua." />
 
 <img src="assets/fim.webp" width="100%" alt="não rebobine." />
 

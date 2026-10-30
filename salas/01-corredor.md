@@ -2,12 +2,12 @@
 
 <img src="../assets/vhs.webp" width="100%" alt="fita rodando" />
 
-<img src="../assets/corredor.webp" width="100%" alt="corredor florido com estátuas sem rosto e uma coisa de saco esperando no fim" />
+<img src="../assets/corredor.webp" width="100%" alt="corredor florido com estátuas sem rosto e uma criatura de saco no fim" />
 
 vc entrou.
 
-as estátuas tão viradas pra parede. por enquanto.<br>
-tem duas portas no fim do corredor. só uma é segura.
+as estátuas tão viradas pra parede. elas são tímidas.<br>
+tem duas portas no fim do corredor. uma delas tem alguém dormindo.
 
 <table>
 <tr>

@@ -4,7 +4,7 @@
 
 o meu quarto. a tv ligou sozinha de novo.
 
-se o abajur piscar, não olha pra cama.<br>
+se o abajur piscar, tem alguém tímido atrás da cama. deixa ele.<br>
 tem um alçapão embaixo do tapete.
 
 <a href="https://github.com/licasmp4/licasmp4/blob/main/salas/03-memory.md"><img src="../assets/porta-descer.webp" width="60%" alt="descer pelo alçapão" /></a>

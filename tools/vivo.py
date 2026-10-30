@@ -125,12 +125,12 @@ SONHOS = [
     'sonhei que o código compilava de primeira. aí eu soube que era sonho.',
     'as estátuas do corredor mudaram de lugar. só uma delas tava olhando pra mim.',
     'tinha uma música tocando no fone mas o fone tava na mesa.',
-    'o coração andava sozinho pela casa procurando alguém pra morar dentro.',
-    'eu traduzia um jogo inteiro e todas as falas diziam "não olhe pra trás".',
+    'um bicho grandão de gorro dormia no meu quarto. eu deixei.',
+    'eu traduzia um jogo inteiro e todas as falas diziam "boa noite".',
     'a casa da neve tinha uma janela a mais. ninguém lembrava dela.',
     'um bot do minecraft me mandou mensagem: "tô cavando pra baixo. não me espera."',
     'sonhei com a fita. no fim dela tinha eu dormindo, assistindo.',
-    'o papel de parede tinha flores e as flores tinham olhos.',
+    'o papel de parede tinha flores e as flores cantavam baixinho.',
     'pedi pra ia fazer um sonho bom. ela fez esse.',
 ]
 

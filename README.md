@@ -1,9 +1,17 @@
+<!-- oi, curioso. se vc tá lendo o código do meu perfil, tem uma sala escondida. procura o pontinho. -->
+
 <div align="center">
+
+<img src="assets/vhs.gif" width="100%" alt="fita VHS começando: PLAY, chiado e o nome licas.mp3" />
 
 <img src="assets/heroi.gif" width="100%" alt="Quarto escuro low-poly: um menino de fone no foco de luz e uma coisa cheia de dentes chegando por trás quando a lâmpada falha" />
 
 <a href="https://www.twitch.tv/licasmp4"><img src="https://img.shields.io/badge/twitch-licasmp4-1a1a1e?style=for-the-badge&logo=twitch&logoColor=d8d0c4&labelColor=050507" alt="Twitch" /></a>
 <a href="https://www.instagram.com/licas.mp4"><img src="https://img.shields.io/badge/instagram-licas.mp4-1a1a1e?style=for-the-badge&logo=instagram&logoColor=d8d0c4&labelColor=050507" alt="Instagram" /></a>
+
+<a href="https://github.com/licasmp4/licasmp4/blob/main/salas/01-corredor.md"><img src="assets/porta-entrar.gif" width="46%" alt="uma porta entreaberta com luz saindo: entrar" /></a>
+
+<sub>tem uma porta aberta aqui. entra se tiver coragem (4 salas, dá pra se perder)</sub>
 
 </div>
 
@@ -17,6 +25,8 @@ gosto mt de jogo e de criar app e site, quase sempre com ia junto. quando pego u
 
 no momento tô fazendo o **MHLAUNCHER** com a minha amiga [@Ataenas](https://github.com/Ataenas)
 
+<img src="https://raw.githubusercontent.com/licasmp4/licasmp4/vivo/diario.svg" width="100%" alt="diário dos sonhos: uma entrada nova toda semana" />
+
 <div align="center">
 <table>
 <tr>
@@ -27,6 +37,8 @@ no momento tô fazendo o **MHLAUNCHER** com a minha amiga [@Ataenas](https://git
 </tr>
 </table>
 </div>
+
+<img src="assets/chiado.gif" width="100%" alt="" />
 
 <img src="assets/t-formacao.svg" width="100%" alt="Formação" />
 
@@ -45,9 +57,13 @@ no momento tô fazendo o **MHLAUNCHER** com a minha amiga [@Ataenas](https://git
 <img src="assets/card-earshare.gif" width="49%" alt="EarShare — vários fones, uma música (privado)" />
 </div>
 
+<img src="assets/chiado.gif" width="100%" alt="" />
+
 <img src="assets/t-hobbies.svg" width="100%" alt="Hobbies" />
 
 <img src="assets/quarto.gif" width="100%" alt="Quarto low-poly de madrugada: TV de tubo ligada, controle no tapete, fone na cama e neve lá fora" />
+
+<img src="assets/cabra-controle.gif" align="right" width="168" alt="a cabra segurando um controle" />
 
 jogo de tudo, mas oq eu curto mesmo é jogo com **história** boa, jogo de **grind** e **terror**. terror principalmente
 
@@ -66,6 +82,8 @@ fora isso estudo **áudio** por hobby (fone, hi-fi, essas coisas) e às vezes fa
 <td align="center" width="25%"><img src="assets/o-pager.gif" width="130" alt="Pager do sonho com amuletos no chaveiro" /><br><sub><b>item</b> · pager do sonho</sub></td>
 </tr>
 </table>
+
+<sub><a href="https://github.com/licasmp4/licasmp4/blob/main/salas/03-memory.md">abrir o memory completo →</a></sub>
 </div>
 
 <img src="assets/t-ferramentas.svg" width="100%" alt="Ferramentas" />
@@ -91,14 +109,45 @@ fora isso estudo **áudio** por hobby (fone, hi-fi, essas coisas) e às vezes fa
 <img src="https://img.shields.io/badge/three.js-0b0b0d?style=flat-square&logo=threedotjs&logoColor=d8d0c4" alt="three.js" />
 </div>
 
+<img src="assets/chiado.gif" width="100%" alt="" />
+
 <img src="assets/t-atividade.svg" width="100%" alt="Atividade" />
 
 <div align="center">
+<table>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/licasmp4/licasmp4/vivo/pager.svg" width="400" alt="pager do sonho: hora em bauru, último sinal, repo que tô mexendo e dias seguidos de commit, atualizado sozinho" /></td>
+<td align="center"><img src="assets/cabra-vela.gif" width="168" alt="a cabra segurando uma vela acesa" /></td>
+</tr>
+</table>
+
 <img src="https://raw.githubusercontent.com/licasmp4/licasmp4/output/cobrinha.svg" width="100%" alt="Cobrinha comendo o gráfico de contribuições" />
 
 <img src="https://streak-stats.demolab.com/?user=licasmp4&hide_border=true&background=050507&ring=ff3b4f&fire=ff3b4f&currStreakNum=eafff0&sideNums=eafff0&currStreakLabel=d8d0c4&sideLabels=cfd8c8&dates=8a8a96&stroke=3a0a14&locale=pt_BR" alt="Sequência de contribuições" />
 
-<br><br>
+</div>
+
+<img src="assets/t-visitas.svg" width="100%" alt="Livro de visitas" />
+
+<img src="assets/cabra-fone.gif" align="right" width="168" alt="a cabra de fone" />
+
+se vc chegou até aqui, deixa um oi no [livro de visitas](https://github.com/licasmp4/licasmp4/issues/1). teu nome aparece escrito na parede aqui embaixo (atualiza sozinho em até 1h)
+
+só o nome de usuário vai pra parede, pode ficar tranquilo
+
+<a href="https://github.com/licasmp4/licasmp4/issues/1"><img src="https://raw.githubusercontent.com/licasmp4/licasmp4/vivo/parede.svg" width="100%" alt="parede de papel florido com os nomes de quem passou por aqui" /></a>
+
+<div align="center">
 
 <img src="assets/corredor.gif" width="100%" alt="Corredor florido com estátuas sem rosto e uma criatura de saco esperando no fim: e o sonho continua." />
+
+<img src="assets/fim.gif" width="100%" alt="não rebobine." />
+
+<details>
+<summary><sub>.</sub></summary>
+
+<sub>psiu. tem uma sala que não aparece no mapa → <a href="https://github.com/licasmp4/licasmp4/blob/main/salas/segredo.md">entrar</a></sub>
+
+</details>
+
 </div>

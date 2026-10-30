@@ -1,0 +1,43 @@
+# Partes vivas do perfil: pager, diário dos sonhos e a parede do livro de visitas.
+name: vivo
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  issue_comment:
+    types: [created, deleted]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [tools/vivo.py, .github/workflows/vivo.yml]
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: vivo
+  cancel-in-progress: false
+
+jobs:
+  vivo:
+    if: github.event_name != 'issue_comment' || github.event.issue.number == 1
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: gerar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/vivo.py out
+      - name: publicar no branch vivo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd out
+          git init -q -b vivo
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" add .
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "vivo $(date -u +%FT%TZ)"
+          git push -q -f "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" vivo

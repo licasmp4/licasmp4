@@ -6,7 +6,7 @@
 
 pouca gente clica no pontinho. parabéns, vc é curioso igual eu kkk
 
-se quiser provar que chegou aqui, deixa um comentário no [livro de visitas](https://github.com/licasmp4/licasmp4/issues/1) com a palavra **cabra**.<br>
+se quiser provar que chegou aqui, deixa um comentário no [livro de visitas](https://github.com/licasmp4/licasmp4/issues/1) com a palavra **estátua**.<br>
 eu vou saber.
 
 <img src="../assets/o-estatua.gif" width="140" alt="a estátua olhando" />
@@ -15,4 +15,4 @@ eu vou saber.
 
 </div>
 
-<!-- se vc tá lendo o código dessa página: oi. a cabra sabe que vc tá aqui. -->
+<!-- se vc tá lendo o código dessa página: oi. a estátua sabe que vc tá aqui. -->

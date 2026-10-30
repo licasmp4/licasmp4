@@ -17,8 +17,6 @@
 
 <img src="assets/t-sobre.svg" width="100%" alt="Sobre mim" />
 
-<img src="assets/cabra.gif" align="right" width="168" alt="Cabra low-poly pálida de olhos pretos enormes, piscando devagar" />
-
 oi, sou o **lucas** (ou **licas.mp3** por aí)
 
 gosto mt de jogo e de criar app e site, quase sempre com ia junto. quando pego uma ideia eu vou até o fim kkk. agora tô me aventurando em **design** tb, ainda aprendendo
@@ -62,8 +60,6 @@ no momento tô fazendo o **MHLAUNCHER** com a minha amiga [@Ataenas](https://git
 <img src="assets/t-hobbies.svg" width="100%" alt="Hobbies" />
 
 <img src="assets/quarto.gif" width="100%" alt="Quarto low-poly de madrugada: TV de tubo ligada, controle no tapete, fone na cama e neve lá fora" />
-
-<img src="assets/cabra-controle.gif" align="right" width="168" alt="a cabra segurando um controle" />
 
 jogo de tudo, mas oq eu curto mesmo é jogo com **história** boa, jogo de **grind** e **terror**. terror principalmente
 
@@ -117,7 +113,6 @@ fora isso estudo **áudio** por hobby (fone, hi-fi, essas coisas) e às vezes fa
 <table>
 <tr>
 <td align="center"><img src="https://raw.githubusercontent.com/licasmp4/licasmp4/vivo/pager.svg" width="400" alt="pager do sonho: hora em bauru, último sinal, repo que tô mexendo e dias seguidos de commit, atualizado sozinho" /></td>
-<td align="center"><img src="assets/cabra-vela.gif" width="168" alt="a cabra segurando uma vela acesa" /></td>
 </tr>
 </table>
 
@@ -128,8 +123,6 @@ fora isso estudo **áudio** por hobby (fone, hi-fi, essas coisas) e às vezes fa
 </div>
 
 <img src="assets/t-visitas.svg" width="100%" alt="Livro de visitas" />
-
-<img src="assets/cabra-fone.gif" align="right" width="168" alt="a cabra de fone" />
 
 se vc chegou até aqui, deixa um oi no [livro de visitas](https://github.com/licasmp4/licasmp4/issues/1). teu nome aparece escrito na parede aqui embaixo (atualiza sozinho em até 1h)
 

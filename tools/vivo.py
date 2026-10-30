@@ -119,7 +119,7 @@ def pager(ultimo, repo, seq, total):
 # ---------- diário dos sonhos ----------
 SONHOS = [
     'sonhei que o clawdeck tinha dentes. ele sorria toda vez que eu dava commit.',
-    'tinha uma cabra no fim do corredor. ela não falava, só piscava devagar.',
+    'tinha uma estátua no fim do corredor. ela não falava, só virava a cabeça devagar.',
     'acordei às 02:44 de novo. o pager tocou mas ninguém tava ligando.',
     'o gore magala tava no meu quarto. a tv ligou sozinha e mostrava minha cara.',
     'sonhei que o código compilava de primeira. aí eu soube que era sonho.',

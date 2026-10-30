@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/cabra-sala.gif" width="60%" alt="a cabra pálida de olhos pretos te olhando e piscando devagar" />
+<img src="../assets/o-estatua.gif" width="240" alt="a estátua sem rosto virando a cabeça pra você e chorando sangue" />
 
 ela tava te esperando.
 

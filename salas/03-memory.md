@@ -10,7 +10,6 @@ as coisas que moram aqui embaixo. não precisa ter medo de todas.
 
 | | |
 |:-:|:--|
-| <img src="../assets/cabra.gif" width="120" alt="a cabra" /> | **person · a cabra**<br>a guia. sabe o caminho mas não conta.<br><sub>como lembrar: ficar parado no escuro até ela piscar</sub> |
 | <img src="../assets/o-cabecao.gif" width="120" alt="eu às 3 da manhã" /> | **person · eu, às 3 da manhã**<br>acordado mais do que devia. o fone nunca sai do pescoço.<br><sub>como lembrar: abrir o terminal depois da meia-noite</sub> |
 | <img src="../assets/o-carne.gif" width="120" alt="coração andante" /> | **monster · coração andante**<br>anda pela casa procurando um peito vazio pra morar. é inofensivo. eu acho.<br><sub>como lembrar: ouvir passinhos no corredor</sub> |
 | <img src="../assets/o-saco.gif" width="120" alt="sorriso costurado" /> | **monster · sorriso costurado**<br>alguém costurou o sorriso dele. ninguém sabe quem.<br><sub>como lembrar: o abajur piscar duas vezes</sub> |
@@ -22,7 +21,7 @@ as coisas que moram aqui embaixo. não precisa ter medo de todas.
 
 <div align="center">
 
-<a href="https://github.com/licasmp4/licasmp4/blob/main/salas/04-cabra.md"><img src="../assets/porta-entrar.gif" width="60%" alt="seguir em frente" /></a>
+<a href="https://github.com/licasmp4/licasmp4/blob/main/salas/04-estatua.md"><img src="../assets/porta-entrar.gif" width="60%" alt="seguir em frente" /></a>
 
 <sub>sala 3 de 4 · <a href="https://github.com/licasmp4/licasmp4/blob/main/salas/02-quarto.md">subir de volta</a></sub>
 

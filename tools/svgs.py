@@ -46,7 +46,7 @@ def camada(nome, num, texto, dados, cara):
     W, H = 900, 120
     import random
     random.seed(num)
-    p = ['<defs><filter id="gl" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>'
+    p = ['<defs><filter id="gl" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>'
          '<linearGradient id="fd" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset=".6" stop-color="#05060a"/><stop offset="1" stop-color="#000"/></linearGradient></defs>',
          f'<rect width="{W}" height="{H}" rx="6" fill="url(#fd)"/>']
     # coluna de ruído ascii rolando
@@ -55,12 +55,12 @@ def camada(nome, num, texto, dados, cara):
     p[0] = p[0].replace('</defs>', f'<clipPath id="cl"><rect x="550" y="0" width="90" height="{H}"/></clipPath></defs>')
     p.append(f'<g clip-path="url(#cl)"><g class="rola">{linhas}</g></g>')
     p.append(f'<rect x="555" y="0" width="80" height="{H}" fill="url(#fd)" opacity=".0"/>')
-    p.append(f'<text x="24" y="30" font-family="{MONO}" font-size="13" fill="#9fffb0" opacity=".75">LAYER {num:02d}</text>')
+    p.append(f'<text x="24" y="30" font-family="{MONO}" font-size="13" fill="#8a8478" opacity=".9">LAYER {num:02d}</text>')
     p.append(f'<g class="tit"><text x="22" y="92" font-family="{SERIF}" font-size="56" fill="#ff2850" opacity=".55" class="r">{texto}</text>'
-             f'<text x="26" y="92" font-family="{SERIF}" font-size="56" fill="#28a0ff" opacity=".55" class="b">{texto}</text>'
-             f'<text x="24" y="92" font-family="{SERIF}" font-size="56" fill="#eafff0" filter="url(#gl)">{texto}</text></g>')
+             f'<text x="26" y="92" font-family="{SERIF}" font-size="56" fill="#4a6a8a" opacity=".45" class="b">{texto}</text>'
+             f'<text x="24" y="92" font-family="{SERIF}" font-size="56" fill="#efe9de" filter="url(#gl)">{texto}</text></g>')
     for k, l in enumerate(dados):
-        p.append(f'<text x="652" y="{34 + k*22}" font-family="{MONO}" font-size="14" font-weight="bold" fill="#9fffb0">{l}</text>')
+        p.append(f'<text x="652" y="{34 + k*22}" font-family="{MONO}" font-size="14" font-weight="bold" fill="#cfc8bc">{l}</text>')
     p.append(f'<text x="{W-20}" y="{H-14}" font-family="{MONO}" font-size="16" font-weight="bold" fill="#ff3b4f" text-anchor="end" class="cara">{cara}</text>')
     p.append(f'<rect class="fx" x="0" y="0" width="{W}" height="6" fill="#fff" opacity="0"/>')
     css = ('.rola{animation:r 3s steps(12) infinite}@keyframes r{to{transform:translateY(-120px)}}'
@@ -76,22 +76,22 @@ def formacao():
              ('Java Full Stack', 'EBAC · Java, HTML, CSS e JavaScript', 'concluído'),
              ('Inteligência Artificial', 'SENAI', 'concluído'),
              ('todo o resto', 'aprendido por conta própria, projeto atrás de projeto', 'sempre')]
-    p = ['<defs><pattern id="gr" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#788cff" stroke-opacity=".1"/></pattern></defs>',
-         f'<rect width="{W}" height="{H}" fill="#080a2e"/><rect width="{W}" height="{H}" fill="url(#gr)"/>',
-         f'<rect x="3" y="3" width="{W-6}" height="{H-6}" fill="none" stroke="#7f9bff" stroke-width="2"/>',
-         f'<text x="20" y="34" font-family="{MONO}" font-size="16" font-weight="bold" fill="#e8ecff">memory <tspan fill="#ffd23c">training</tspan></text>',
-         f'<text x="{W-20}" y="34" font-family="{MONO}" font-size="14" fill="#5a6bc0" text-anchor="end">description</text>',
-         f'<rect x="20" y="46" width="{W-40}" height="1" fill="#7f9bff"/>']
+    p = ['<defs><pattern id="gr" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#cfc8bc" stroke-opacity=".05"/></pattern></defs>',
+         f'<rect width="{W}" height="{H}" fill="#08080a"/><rect width="{W}" height="{H}" fill="url(#gr)"/>',
+         f'<rect x="3" y="3" width="{W-6}" height="{H-6}" fill="none" stroke="#5a5650" stroke-width="2"/>',
+         f'<text x="20" y="34" font-family="{MONO}" font-size="16" font-weight="bold" fill="#efe9de">memory <tspan fill="#ff3b4f">training</tspan></text>',
+         f'<text x="{W-20}" y="34" font-family="{MONO}" font-size="14" fill="#6a665e" text-anchor="end">description</text>',
+         f'<rect x="20" y="46" width="{W-40}" height="1" fill="#5a5650"/>']
     for i, (t, d, st) in enumerate(itens):
         y = 92 + i * 60
         sel = i == 0
         p.append(f'<g class="li" style="animation-delay:{i*0.6}s">'
-                 f'<text x="34" y="{y}" font-family="{MONO}" font-size="20" font-weight="bold" fill="#ffffff">{t}</text>'
-                 f'<text x="34" y="{y+24}" font-family="{MONO}" font-size="15" fill="#b9c6ff">{d}</text>'
-                 f'<rect x="{W-170}" y="{y-20}" width="136" height="26" rx="5" fill="{"#123b1c" if st != "sempre" else "#3b1230"}"/>'
-                 f'<text x="{W-102}" y="{y-2}" font-family="{MONO}" font-size="14" font-weight="bold" fill="{"#7dff8a" if st != "sempre" else "#ff6fb8"}" text-anchor="middle">{st}</text></g>')
-    p.append(f'<g class="sel"><rect x="20" y="64" width="{W-40}" height="54" fill="#7f9bff" opacity=".12"/>'
-             '<path class="bt" d="M24 80h4v-2h4v2h2v-2h4v2h2v6h-2v2h-2v2h-2v2h-2v2h-2v-2h-2v-2h-2v-2h-2v-2h-2z" fill="#ff4fb6" transform="translate(-4 8) scale(.7)"/></g>')
+                 f'<text x="34" y="{y}" font-family="{MONO}" font-size="20" font-weight="bold" fill="#efe9de">{t}</text>'
+                 f'<text x="34" y="{y+24}" font-family="{MONO}" font-size="15" fill="#9a948a">{d}</text>'
+                 f'<rect x="{W-170}" y="{y-20}" width="136" height="26" rx="5" fill="{"#1c1b1e" if st != "sempre" else "#3a0a14"}"/>'
+                 f'<text x="{W-102}" y="{y-2}" font-family="{MONO}" font-size="14" font-weight="bold" fill="{"#cfc8bc" if st != "sempre" else "#ff3b4f"}" text-anchor="middle">{st}</text></g>')
+    p.append(f'<g class="sel"><rect x="20" y="64" width="{W-40}" height="54" fill="#cfc8bc" opacity=".06"/>'
+             '<path class="bt" d="M24 80h4v-2h4v2h2v-2h4v2h2v6h-2v2h-2v2h-2v2h-2v2h-2v-2h-2v-2h-2v-2h-2v-2h-2z" fill="#ff3b4f" transform="translate(-4 8) scale(.7)"/></g>')
     css = ('.sel{animation:s 6s steps(1) infinite}@keyframes s{0%{transform:translateY(0)}25%{transform:translateY(60px)}50%{transform:translateY(120px)}75%{transform:translateY(180px)}}'
            '.bt{animation:b .8s steps(1) infinite}@keyframes b{50%{opacity:.3}}')
     salvar('formacao.svg', W, H, ''.join(p), css)

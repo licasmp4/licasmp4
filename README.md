@@ -2,12 +2,14 @@
 
 <img src="assets/heroi.gif" width="100%" alt="Quarto escuro low-poly: um menino de fone no foco de luz e uma coisa cheia de dentes chegando por trás quando a lâmpada falha" />
 
-<a href="https://www.twitch.tv/licasmp4"><img src="https://img.shields.io/badge/twitch-licasmp4-ff4fb6?style=for-the-badge&logo=twitch&logoColor=ff8ac0&labelColor=080a2e" alt="Twitch" /></a>
-<a href="https://www.instagram.com/licas.mp4"><img src="https://img.shields.io/badge/instagram-licas.mp4-7f9bff?style=for-the-badge&logo=instagram&logoColor=bfe8ff&labelColor=080a2e" alt="Instagram" /></a>
+<a href="https://www.twitch.tv/licasmp4"><img src="https://img.shields.io/badge/twitch-licasmp4-1a1a1e?style=for-the-badge&logo=twitch&logoColor=d8d0c4&labelColor=050507" alt="Twitch" /></a>
+<a href="https://www.instagram.com/licas.mp4"><img src="https://img.shields.io/badge/instagram-licas.mp4-1a1a1e?style=for-the-badge&logo=instagram&logoColor=d8d0c4&labelColor=050507" alt="Instagram" /></a>
 
 </div>
 
 <img src="assets/t-sobre.svg" width="100%" alt="Sobre mim" />
+
+<img src="assets/cabra.gif" align="right" width="168" alt="Cabra low-poly pálida de olhos pretos enormes, piscando devagar" />
 
 Oi! Eu sou o **Lucas**, mas na internet é **licas.mp3**.
 
@@ -67,7 +69,24 @@ Fora dos jogos, **estudo áudio por hobby** (fones, hi-fi e como o som funciona)
 <img src="assets/t-ferramentas.svg" width="100%" alt="Ferramentas" />
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css,mysql,nodejs,electron,swift,cs,rust,linux,ubuntu,bash,git,github,threejs&theme=dark&perline=9" alt="Python, Java, JavaScript, TypeScript, HTML, CSS, MySQL, Node.js, Electron, Swift, C#, Rust, Linux, Ubuntu, Bash, Git, GitHub, three.js" />
+<img src="https://img.shields.io/badge/Python-0b0b0d?style=flat-square&logo=python&logoColor=d8d0c4" alt="Python" />
+<img src="https://img.shields.io/badge/Java-0b0b0d?style=flat-square&logo=openjdk&logoColor=d8d0c4" alt="Java" />
+<img src="https://img.shields.io/badge/JavaScript-0b0b0d?style=flat-square&logo=javascript&logoColor=d8d0c4" alt="JavaScript" />
+<img src="https://img.shields.io/badge/TypeScript-0b0b0d?style=flat-square&logo=typescript&logoColor=d8d0c4" alt="TypeScript" />
+<img src="https://img.shields.io/badge/HTML-0b0b0d?style=flat-square&logo=html5&logoColor=d8d0c4" alt="HTML" />
+<img src="https://img.shields.io/badge/CSS-0b0b0d?style=flat-square&logo=css&logoColor=d8d0c4" alt="CSS" />
+<img src="https://img.shields.io/badge/MySQL-0b0b0d?style=flat-square&logo=mysql&logoColor=d8d0c4" alt="MySQL" />
+<img src="https://img.shields.io/badge/Node.js-0b0b0d?style=flat-square&logo=nodedotjs&logoColor=d8d0c4" alt="Node.js" />
+<img src="https://img.shields.io/badge/Electron-0b0b0d?style=flat-square&logo=electron&logoColor=d8d0c4" alt="Electron" />
+<img src="https://img.shields.io/badge/Swift-0b0b0d?style=flat-square&logo=swift&logoColor=d8d0c4" alt="Swift" />
+<img src="https://img.shields.io/badge/C%23-0b0b0d?style=flat-square&logo=dotnet&logoColor=d8d0c4" alt="C#" />
+<img src="https://img.shields.io/badge/Rust-0b0b0d?style=flat-square&logo=rust&logoColor=d8d0c4" alt="Rust" />
+<img src="https://img.shields.io/badge/Linux-0b0b0d?style=flat-square&logo=linux&logoColor=d8d0c4" alt="Linux" />
+<img src="https://img.shields.io/badge/Ubuntu-0b0b0d?style=flat-square&logo=ubuntu&logoColor=d8d0c4" alt="Ubuntu" />
+<img src="https://img.shields.io/badge/Bash-0b0b0d?style=flat-square&logo=gnubash&logoColor=d8d0c4" alt="Bash" />
+<img src="https://img.shields.io/badge/Git-0b0b0d?style=flat-square&logo=git&logoColor=d8d0c4" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-0b0b0d?style=flat-square&logo=github&logoColor=d8d0c4" alt="GitHub" />
+<img src="https://img.shields.io/badge/three.js-0b0b0d?style=flat-square&logo=threedotjs&logoColor=d8d0c4" alt="three.js" />
 </div>
 
 <img src="assets/t-atividade.svg" width="100%" alt="Atividade" />
@@ -75,7 +94,7 @@ Fora dos jogos, **estudo áudio por hobby** (fones, hi-fi e como o som funciona)
 <div align="center">
 <img src="https://raw.githubusercontent.com/licasmp4/licasmp4/output/cobrinha.svg" width="100%" alt="Cobrinha comendo o gráfico de contribuições" />
 
-<img src="https://streak-stats.demolab.com/?user=licasmp4&hide_border=true&background=050507&ring=ff3b4f&fire=ff3b4f&currStreakNum=eafff0&sideNums=eafff0&currStreakLabel=9fffb0&sideLabels=cfd8c8&dates=8a8a96&stroke=3a0a14&locale=pt_BR" alt="Sequência de contribuições" />
+<img src="https://streak-stats.demolab.com/?user=licasmp4&hide_border=true&background=050507&ring=ff3b4f&fire=ff3b4f&currStreakNum=eafff0&sideNums=eafff0&currStreakLabel=d8d0c4&sideLabels=cfd8c8&dates=8a8a96&stroke=3a0a14&locale=pt_BR" alt="Sequência de contribuições" />
 
 <br><br>
 

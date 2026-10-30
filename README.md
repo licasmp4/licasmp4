@@ -2,14 +2,14 @@
 
 <div align="center">
 
-<img src="assets/vhs.gif" width="100%" alt="fita VHS começando: PLAY, chiado e o nome licas.mp3" />
+<img src="assets/vhs.webp" width="100%" alt="fita VHS começando: PLAY, chiado e o nome licas.mp3" />
 
-<img src="assets/heroi.gif" width="100%" alt="Quarto escuro low-poly: um menino de fone no foco de luz e uma coisa cheia de dentes chegando por trás quando a lâmpada falha" />
+<img src="assets/heroi.webp" width="100%" alt="Quarto escuro low-poly: um menino de fone no foco de luz e uma coisa cheia de dentes chegando por trás quando a lâmpada falha" />
 
 <a href="https://www.twitch.tv/licasmp4"><img src="https://img.shields.io/badge/twitch-licasmp4-1a1a1e?style=for-the-badge&logo=twitch&logoColor=d8d0c4&labelColor=050507" alt="Twitch" /></a>
 <a href="https://www.instagram.com/licas.mp4"><img src="https://img.shields.io/badge/instagram-licas.mp4-1a1a1e?style=for-the-badge&logo=instagram&logoColor=d8d0c4&labelColor=050507" alt="Instagram" /></a>
 
-<a href="https://github.com/licasmp4/licasmp4/blob/main/salas/01-corredor.md"><img src="assets/porta-entrar.gif" width="46%" alt="uma porta entreaberta com luz saindo: entrar" /></a>
+<a href="https://github.com/licasmp4/licasmp4/blob/main/salas/01-corredor.md"><img src="assets/porta-entrar.webp" width="46%" alt="uma porta entreaberta com luz saindo: entrar" /></a>
 
 <sub>tem uma porta aberta aqui. entra se tiver coragem (4 salas, dá pra se perder)</sub>
 
@@ -28,15 +28,15 @@ no momento tô fazendo o **MHLAUNCHER** com a minha amiga [@Ataenas](https://git
 <div align="center">
 <table>
 <tr>
-<td align="center" width="25%"><img src="assets/o-cabecao.gif" width="130" alt="Menino de cabeção e fone, com olhos ocos, chorando sangue" /><br><sub><b>person</b> · eu, às 3 da manhã</sub></td>
-<td align="center" width="25%"><img src="assets/o-carne.gif" width="130" alt="Coração de carne com veias andando em perninhas" /><br><sub><b>monster</b> · coração andante</sub></td>
-<td align="center" width="25%"><img src="assets/o-estatua.gif" width="130" alt="Estátua sem rosto que vira a cabeça e chora sangue" /><br><sub><b>painting</b> · a estátua que olha</sub></td>
-<td align="center" width="25%"><img src="assets/o-mascara.gif" width="130" alt="Máscara de metal azul sorrindo com dentes, num capuz preto" /><br><sub><b>monster</b> · o sorriso</sub></td>
+<td align="center" width="25%"><img src="assets/o-cabecao.webp" width="130" alt="Menino de cabeção e fone, com olhos ocos, chorando sangue" /><br><sub><b>person</b> · eu, às 3 da manhã</sub></td>
+<td align="center" width="25%"><img src="assets/o-carne.webp" width="130" alt="Coração de carne com veias andando em perninhas" /><br><sub><b>monster</b> · coração andante</sub></td>
+<td align="center" width="25%"><img src="assets/o-estatua.webp" width="130" alt="Estátua sem rosto que vira a cabeça e chora sangue" /><br><sub><b>painting</b> · a estátua que olha</sub></td>
+<td align="center" width="25%"><img src="assets/o-mascara.webp" width="130" alt="Máscara de metal azul sorrindo com dentes, num capuz preto" /><br><sub><b>monster</b> · o sorriso</sub></td>
 </tr>
 </table>
 </div>
 
-<img src="assets/chiado.gif" width="100%" alt="" />
+<img src="assets/chiado.webp" width="100%" alt="" />
 
 <img src="assets/t-formacao.svg" width="100%" alt="Formação" />
 
@@ -49,17 +49,17 @@ no momento tô fazendo o **MHLAUNCHER** com a minha amiga [@Ataenas](https://git
 <img src="assets/t-projetos.svg" width="100%" alt="Memórias / projetos" />
 
 <div align="center">
-<a href="https://github.com/licasmp4/Clawdeck"><img src="assets/card-clawdeck.gif" width="49%" alt="Clawdeck — os terminais do Claude Code, o site e o celular num app só" /></a>
-<a href="https://github.com/licasmp4/MHLAUNCHER"><img src="assets/card-mhlauncher.gif" width="49%" alt="MHLAUNCHER — os ports de Monster Hunter no PC, em português, feito com a Ataenas" /></a>
-<img src="assets/card-neurocraft.gif" width="49%" alt="Neurocraft — bots que jogam Minecraft de verdade (privado)" />
-<img src="assets/card-earshare.gif" width="49%" alt="EarShare — vários fones, uma música (privado)" />
+<a href="https://github.com/licasmp4/Clawdeck"><img src="assets/card-clawdeck.webp" width="49%" alt="Clawdeck — os terminais do Claude Code, o site e o celular num app só" /></a>
+<a href="https://github.com/licasmp4/MHLAUNCHER"><img src="assets/card-mhlauncher.webp" width="49%" alt="MHLAUNCHER — os ports de Monster Hunter no PC, em português, feito com a Ataenas" /></a>
+<img src="assets/card-neurocraft.webp" width="49%" alt="Neurocraft — bots que jogam Minecraft de verdade (privado)" />
+<img src="assets/card-earshare.webp" width="49%" alt="EarShare — vários fones, uma música (privado)" />
 </div>
 
-<img src="assets/chiado.gif" width="100%" alt="" />
+<img src="assets/chiado.webp" width="100%" alt="" />
 
 <img src="assets/t-hobbies.svg" width="100%" alt="Hobbies" />
 
-<img src="assets/quarto.gif" width="100%" alt="Quarto low-poly de madrugada: TV de tubo ligada, controle no tapete, fone na cama e neve lá fora" />
+<img src="assets/quarto.webp" width="100%" alt="Quarto low-poly de madrugada: TV de tubo ligada, controle no tapete, fone na cama e neve lá fora" />
 
 jogo de tudo, mas oq eu curto mesmo é jogo com **história** boa, jogo de **grind** e **terror**. terror principalmente
 
@@ -72,10 +72,10 @@ fora isso estudo **áudio** por hobby (fone, hi-fi, essas coisas) e às vezes fa
 <div align="center">
 <table>
 <tr>
-<td align="center" width="25%"><img src="assets/o-saco.gif" width="130" alt="Criatura de cabeça de saco com sorriso costurado" /><br><sub><b>monster</b> · sorriso costurado</sub></td>
-<td align="center" width="25%"><img src="assets/o-quadro.gif" width="130" alt="Pintura de um olho no meio das nuvens" /><br><sub><b>painting</b> · o olho nas nuvens</sub></td>
-<td align="center" width="25%"><img src="assets/o-boca.gif" width="130" alt="Pedaço de carne com uma boca cheia de dentes" /><br><sub><b>curse</b> · fome</sub></td>
-<td align="center" width="25%"><img src="assets/o-pager.gif" width="130" alt="Pager do sonho com amuletos no chaveiro" /><br><sub><b>item</b> · pager do sonho</sub></td>
+<td align="center" width="25%"><img src="assets/o-saco.webp" width="130" alt="Criatura de cabeça de saco com sorriso costurado" /><br><sub><b>monster</b> · sorriso costurado</sub></td>
+<td align="center" width="25%"><img src="assets/o-quadro.webp" width="130" alt="Pintura de um olho no meio das nuvens" /><br><sub><b>painting</b> · o olho nas nuvens</sub></td>
+<td align="center" width="25%"><img src="assets/o-boca.webp" width="130" alt="Pedaço de carne com uma boca cheia de dentes" /><br><sub><b>curse</b> · fome</sub></td>
+<td align="center" width="25%"><img src="assets/o-pager.webp" width="130" alt="Pager do sonho com amuletos no chaveiro" /><br><sub><b>item</b> · pager do sonho</sub></td>
 </tr>
 </table>
 
@@ -105,7 +105,7 @@ fora isso estudo **áudio** por hobby (fone, hi-fi, essas coisas) e às vezes fa
 <img src="https://img.shields.io/badge/three.js-0b0b0d?style=flat-square&logo=threedotjs&logoColor=d8d0c4" alt="three.js" />
 </div>
 
-<img src="assets/chiado.gif" width="100%" alt="" />
+<img src="assets/chiado.webp" width="100%" alt="" />
 
 <img src="assets/t-atividade.svg" width="100%" alt="Atividade" />
 
@@ -132,9 +132,9 @@ só o nome de usuário vai pra parede, pode ficar tranquilo
 
 <div align="center">
 
-<img src="assets/corredor.gif" width="100%" alt="Corredor florido com estátuas sem rosto e uma criatura de saco esperando no fim: e o sonho continua." />
+<img src="assets/corredor.webp" width="100%" alt="Corredor florido com estátuas sem rosto e uma criatura de saco esperando no fim: e o sonho continua." />
 
-<img src="assets/fim.gif" width="100%" alt="não rebobine." />
+<img src="assets/fim.webp" width="100%" alt="não rebobine." />
 
 <details>
 <summary><sub>.</sub></summary>

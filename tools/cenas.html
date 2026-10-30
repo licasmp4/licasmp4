@@ -486,7 +486,7 @@ function coisa(iw, ih) {
 
 // =============== CENA 1 (nova): o quarto escuro e a coisa atrás de você ===============
 function cenaPesadelo() {
-  const IW = 400, IH = 150, S = 3, W = IW * S, H = IH * S;
+  const IW = 600, IH = 225, S = 2, W = IW * S, H = IH * S;
   const out = document.getElementById('out'); out.width = W; out.height = H; const ctx = out.getContext('2d');
   const r = renderer(IW, IH); const cena = new THREE.Scene();
   cena.background = new THREE.Color(0x020104); cena.fog = new THREE.Fog(0x020104, 10, 26);
@@ -517,6 +517,9 @@ function cenaPesadelo() {
   
   const lamp = new THREE.Mesh(new THREE.BoxGeometry(.9, .12, .6), new THREE.MeshBasicMaterial({ color: 0xfff0d8 })); lamp.position.set(2.8, 7.9, 3.8); cena.add(lamp);
 
+  r.shadowMap.enabled = true; r.shadowMap.type = THREE.BasicShadowMap;
+  foco.castShadow = true; foco.shadow.mapSize.set(1024, 1024); foco.shadow.bias = -.002;
+  cena.traverse((o) => { if (o.isMesh) { o.castShadow = true; o.receiveShadow = true; } });
   window.N = 96;
   window.quadro = (i) => {
     const t = i / window.N;
@@ -644,7 +647,7 @@ function cartao() {
 
 // =============== CENA 3: corredor florido (rodapé) ===============
 function corredor() {
-  const IW = 400, IH = 110, S = 3, W = IW * S, H = IH * S;
+  const IW = 600, IH = 165, S = 2, W = IW * S, H = IH * S;
   const out = document.getElementById('out'); out.width = W; out.height = H; const ctx = out.getContext('2d');
   const r = renderer(IW, IH); const cena = new THREE.Scene();
   cena.background = new THREE.Color(0x07060f); cena.fog = new THREE.Fog(0x07060f, 4, 26);
@@ -705,7 +708,7 @@ function corredor() {
 
 // =============== CENA 4: o quarto de madrugada (hobbies) ===============
 function quarto() {
-  const IW = 400, IH = 150, S = 3, W = IW * S, H = IH * S;
+  const IW = 600, IH = 225, S = 2, W = IW * S, H = IH * S;
   const out = document.getElementById('out'); out.width = W; out.height = H; const ctx = out.getContext('2d');
   const r = renderer(IW, IH); const cena = new THREE.Scene();
   cena.background = new THREE.Color(0x0a0818);
@@ -824,6 +827,10 @@ function quarto() {
   }
   const falas = ['só mais uma partida e eu durmo', 'vc ouviu isso tb?', 'por favor, toma cuidado.'];
 
+  r.shadowMap.enabled = true; r.shadowMap.type = THREE.BasicShadowMap;
+  luzAb.castShadow = true; luzAb.shadow.mapSize.set(512, 512); luzAb.shadow.bias = -.004;
+  luzTv.castShadow = true; luzTv.shadow.mapSize.set(512, 512); luzTv.shadow.bias = -.004;
+  cena.traverse((o) => { if (o.isMesh && o !== tela && o !== jan) { o.castShadow = true; o.receiveShadow = true; } });
   window.N = 90;
   window.quadro = (i) => {
     const t = i / window.N;
@@ -849,7 +856,7 @@ function quarto() {
 
 // =============== CENA 5: objetos low-poly girando, sem fundo ===============
 function objeto() {
-  const IW = 96, IH = 96, S = 3, W = IW * S, H = IH * S;
+  const IW = 144, IH = 144, S = 2, W = IW * S, H = IH * S;
   const out = document.getElementById('out'); out.width = W; out.height = H; const ctx = out.getContext('2d');
   const gl = document.createElement('canvas');
   const r = new THREE.WebGLRenderer({ canvas: gl, antialias: false, alpha: true, preserveDrawingBuffer: true, premultipliedAlpha: false });
@@ -1149,7 +1156,7 @@ function fimFita() {
 
 // =============== porta entreaberta (link pras salas) ===============
 function porta() {
-  const IW = 160, IH = 100, S = 3, W = IW * S, H = IH * S;
+  const IW = 240, IH = 150, S = 2, W = IW * S, H = IH * S;
   const out = document.getElementById('out'); out.width = W; out.height = H; const ctx = out.getContext('2d');
   const r = renderer(IW, IH); const cena = new THREE.Scene(); cena.background = new THREE.Color(0x030204); cena.fog = new THREE.Fog(0x030204, 5, 14);
   const cam = new THREE.PerspectiveCamera(40, IW / IH, .1, 40); cam.position.set(0, 1.6, 6.2); cam.lookAt(0, 1.4, 0);
@@ -1181,7 +1188,7 @@ function porta() {
 
 // =============== susto: a coisa bem na sua cara ===============
 function susto() {
-  const IW = 200, IH = 112, S = 4, W = IW * S, H = IH * S;
+  const IW = 400, IH = 224, S = 2, W = IW * S, H = IH * S;
   const out = document.getElementById('out'); out.width = W; out.height = H; const ctx = out.getContext('2d');
   const r = renderer(IW, IH); const cena = new THREE.Scene(); cena.background = new THREE.Color(0x020102);
   const cam = new THREE.PerspectiveCamera(40, IW / IH, .1, 40); cam.position.set(0, 4.5, 4.2); cam.lookAt(0, 4.5, 0);
@@ -1200,7 +1207,11 @@ function susto() {
   };
 }
 
-({ vhs, faixa, fimFita, porta, susto, cabra, heroi: cenaPesadelo, casa: cenaHeroi, cartao, corredor, quarto, objeto })[CENA]();
+const CENAS = { vhs, faixa, fimFita, porta, susto, cabra, heroi: cenaPesadelo, casa: cenaHeroi, cartao, corredor, quarto, objeto };
+CENAS[CENA]();
+{ const K = +(Q.get('k') || 2), N0 = window.N, q0 = window.quadro;
+  window.N = N0 * K;
+  window.quadro = (i) => { window.N = N0; const r0 = q0(i / K); window.N = N0 * K; return r0; }; }
 window.pronto = true;
 </script>
 </body></html>

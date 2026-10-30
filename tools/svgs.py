@@ -39,6 +39,37 @@ def titulo(nome, texto, cara, hora, fechada):
            '.ha{animation:h 2s ease-in-out infinite}.hb{animation:h 2s ease-in-out -1s infinite}@keyframes h{0%,100%{opacity:0}50%{opacity:.45}}')
     salvar(nome, W, H, ''.join(p), css)
 
+SERIF = "'Times New Roman',Georgia,serif"
+
+def camada(nome, num, texto, dados, cara):
+    # título no estilo das telas de carregamento: fundo preto, serifada brilhando, dados de sono ao lado
+    W, H = 900, 120
+    import random
+    random.seed(num)
+    p = ['<defs><filter id="gl" x="-10%" y="-30%" width="120%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>'
+         '<linearGradient id="fd" x1="0" x2="1"><stop offset="0" stop-color="#000"/><stop offset=".6" stop-color="#05060a"/><stop offset="1" stop-color="#000"/></linearGradient></defs>',
+         f'<rect width="{W}" height="{H}" rx="6" fill="url(#fd)"/>']
+    # coluna de ruído ascii rolando
+    chars = '▓▒░#%=+:-.'
+    linhas = ''.join(f'<text x="560" y="{14 + k*10}" font-family="{MONO}" font-size="9" fill="#cfd8c8" opacity=".35">{"".join(random.choice(chars) for _ in range(12))}</text>' for k in range(24))
+    p[0] = p[0].replace('</defs>', f'<clipPath id="cl"><rect x="550" y="0" width="90" height="{H}"/></clipPath></defs>')
+    p.append(f'<g clip-path="url(#cl)"><g class="rola">{linhas}</g></g>')
+    p.append(f'<rect x="555" y="0" width="80" height="{H}" fill="url(#fd)" opacity=".0"/>')
+    p.append(f'<text x="24" y="30" font-family="{MONO}" font-size="13" fill="#9fffb0" opacity=".75">LAYER {num:02d}</text>')
+    p.append(f'<g class="tit"><text x="22" y="92" font-family="{SERIF}" font-size="56" fill="#ff2850" opacity=".55" class="r">{texto}</text>'
+             f'<text x="26" y="92" font-family="{SERIF}" font-size="56" fill="#28a0ff" opacity=".55" class="b">{texto}</text>'
+             f'<text x="24" y="92" font-family="{SERIF}" font-size="56" fill="#eafff0" filter="url(#gl)">{texto}</text></g>')
+    for k, l in enumerate(dados):
+        p.append(f'<text x="652" y="{34 + k*22}" font-family="{MONO}" font-size="14" font-weight="bold" fill="#9fffb0">{l}</text>')
+    p.append(f'<text x="{W-20}" y="{H-14}" font-family="{MONO}" font-size="16" font-weight="bold" fill="#ff3b4f" text-anchor="end" class="cara">{cara}</text>')
+    p.append(f'<rect class="fx" x="0" y="0" width="{W}" height="6" fill="#fff" opacity="0"/>')
+    css = ('.rola{animation:r 3s steps(12) infinite}@keyframes r{to{transform:translateY(-120px)}}'
+           '.tit{animation:t 5s steps(1) infinite}@keyframes t{0%,88%,100%{transform:none;opacity:1}89%{transform:translateX(6px);opacity:.6}91%{transform:translateX(-4px)}93%{opacity:1;transform:none}96%{opacity:.4}}'
+           '.r{animation:ab 2.5s ease-in-out infinite}.b{animation:ab 2.5s ease-in-out infinite reverse}@keyframes ab{50%{transform:translateX(-3px)}}'
+           '.cara{animation:c 1.2s steps(1) infinite}@keyframes c{50%{opacity:.3}}'
+           '.fx{animation:f 5s linear infinite}@keyframes f{0%{transform:translateY(0);opacity:.0}88%{transform:translateY(0);opacity:0}89%{opacity:.25}95%{transform:translateY(120px);opacity:.1}100%{opacity:0}}')
+    salvar(nome, W, H, ''.join(p), css)
+
 def formacao():
     W, H = 900, 330
     itens = [('Full Stack Python', 'Projeto Farol · Associação Wise Madness (Bauru)', 'concluído'),
@@ -65,10 +96,10 @@ def formacao():
            '.bt{animation:b .8s steps(1) infinite}@keyframes b{50%{opacity:.3}}')
     salvar('formacao.svg', W, H, ''.join(p), css)
 
-titulo('t-sobre.svg', 'SOBRE MIM', '(˘ω˘)', '02:44', '(-ω-)')
-titulo('t-formacao.svg', 'FORMAÇÃO', '(・ω・)', '03:12', '(-ω-)')
-titulo('t-projetos.svg', 'MEMÓRIAS / PROJETOS', '(っ˘ω˘ς)', '04:20', '(っ-ω-ς)')
-titulo('t-hobbies.svg', 'HOBBIES', '(^ω^)', '03:33', '(-ω-)')
-titulo('t-ferramentas.svg', 'FERRAMENTAS', '(•ω•)', '05:55', '(-ω-)')
-titulo('t-atividade.svg', 'ATIVIDADE', '(￣ω￣;)', '23:59', '(-ω-;)')
+camada('t-sobre.svg', 1, 'Sobre mim', ['sono leve: 5%', 'ondas theta', 'baixa voltagem'], '(˘ω˘)')
+camada('t-formacao.svg', 2, 'Formação', ['sono leve: 12%', 'fusos do sono', 'memória: ok'], '(・ω・)')
+camada('t-projetos.svg', 3, 'Memórias', ['sono profundo: 40%', 'ondas delta', 'objetos: 04'], '(°ω°)')
+camada('t-hobbies.svg', 4, 'Hobbies', ['REM: 61%', 'movimento ocular', 'sonhando...'], '(°□°)')
+camada('t-ferramentas.svg', 5, 'Ferramentas', ['REM: 78%', 'curses: nenhuma', 'itens: 18'], '(•ω•)')
+camada('t-atividade.svg', 6, 'Atividade', ['acordando: 93%', 'ondas alfa', 'não olhe pra trás'], '(;ω;)')
 formacao()

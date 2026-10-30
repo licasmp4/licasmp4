@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/heroi.gif" width="100%" alt="Cena low-poly de uma casa num sonho ao entardecer, com um coração rosa flutuando e o nome licas.mp3" />
+<img src="assets/heroi.gif" width="100%" alt="Quarto escuro low-poly: um menino de fone no foco de luz e uma coisa cheia de dentes chegando por trás quando a lâmpada falha" />
 
 <a href="https://www.twitch.tv/licasmp4"><img src="https://img.shields.io/badge/twitch-licasmp4-ff4fb6?style=for-the-badge&logo=twitch&logoColor=ff8ac0&labelColor=080a2e" alt="Twitch" /></a>
 <a href="https://www.instagram.com/licas.mp4"><img src="https://img.shields.io/badge/instagram-licas.mp4-7f9bff?style=for-the-badge&logo=instagram&logoColor=bfe8ff&labelColor=080a2e" alt="Instagram" /></a>
@@ -18,10 +18,10 @@ Agora estou fazendo o **MHLAUNCHER** junto com a minha amiga [@Ataenas](https://
 <div align="center">
 <table>
 <tr>
-<td align="center" width="25%"><img src="assets/o-olho.gif" width="130" alt="Olho low-poly com asas olhando pra todo lado" /><br><sub><i>ele te observa</i></sub></td>
-<td align="center" width="25%"><img src="assets/o-urso.gif" width="130" alt="Ursinho costurado com um olho de botão" /><br><sub><i>costurado com carinho</i></sub></td>
-<td align="center" width="25%"><img src="assets/o-bebe.gif" width="130" alt="Bebê-anjo dormindo que às vezes abre um olho" /><br><sub><i>shh, não acorda ele</i></sub></td>
-<td align="center" width="25%"><img src="assets/o-flor.gif" width="130" alt="Flor sorrindo com dentes demais" /><br><sub><i>sorria :)</i></sub></td>
+<td align="center" width="25%"><img src="assets/o-cabecao.gif" width="130" alt="Menino de cabeção e fone, com olhos ocos, chorando sangue" /><br><sub><b>person</b> · eu, às 3 da manhã</sub></td>
+<td align="center" width="25%"><img src="assets/o-carne.gif" width="130" alt="Coração de carne com veias andando em perninhas" /><br><sub><b>monster</b> · coração andante</sub></td>
+<td align="center" width="25%"><img src="assets/o-estatua.gif" width="130" alt="Estátua sem rosto que vira a cabeça e chora sangue" /><br><sub><b>painting</b> · a estátua que olha</sub></td>
+<td align="center" width="25%"><img src="assets/o-mascara.gif" width="130" alt="Máscara de metal azul sorrindo com dentes, num capuz preto" /><br><sub><b>monster</b> · o sorriso</sub></td>
 </tr>
 </table>
 </div>
@@ -49,17 +49,17 @@ Agora estou fazendo o **MHLAUNCHER** junto com a minha amiga [@Ataenas](https://
 
 Jogo de tudo um pouco, mas o que me pega mesmo são os **jogos de história**, os **jogos de grind** e, acima de tudo, o **terror**.
 
-No terror, o meu lugar é o low-poly com cara de PS1, estranho e meio sonho. **Mama's Sleeping Angels** é o meu favorito, e logo atrás vêm Cry of Fear, Afraid of Monsters, Nun Massacre, Gloomwood e Stay Out of the House. No grind, é **Monster Hunter**: gostei tanto que traduzi o 4 Ultimate e o Generations Ultimate pra português.
+No terror, o meu lugar é o low-poly com cara de PS1, estranho e meio sonho. **Mama's Sleeping Angels** é o meu favorito, e logo atrás vêm **Tower of Tears**, Cry of Fear, Afraid of Monsters, Nun Massacre, Gloomwood e Stay Out of the House. No grind, é **Monster Hunter**: gostei tanto que traduzi o 4 Ultimate e o Generations Ultimate pra português.
 
 Fora dos jogos, **estudo áudio por hobby** (fones, hi-fi e como o som funciona) e de vez em quando faço live na Twitch.
 
 <div align="center">
 <table>
 <tr>
-<td align="center" width="25%"><img src="assets/o-coracao.gif" width="130" alt="Coração com curativo, batendo e pingando" /><br><sub><i>ainda bate</i></sub></td>
-<td align="center" width="25%"><img src="assets/o-coelho.gif" width="130" alt="Coelhinho de olhos em X chorando" /><br><sub><i>tá tudo bem</i></sub></td>
-<td align="center" width="25%"><img src="assets/o-tv.gif" width="130" alt="TV de pernas com um sorriso que cresce demais" /><br><sub><i>boa noite!</i></sub></td>
-<td align="center" width="25%"><img src="assets/o-mao.gif" width="130" alt="Mão com um olho na palma acenando" /><br><sub><i>oi (˘ω˘)</i></sub></td>
+<td align="center" width="25%"><img src="assets/o-saco.gif" width="130" alt="Criatura de cabeça de saco com sorriso costurado" /><br><sub><b>monster</b> · sorriso costurado</sub></td>
+<td align="center" width="25%"><img src="assets/o-quadro.gif" width="130" alt="Pintura de um olho no meio das nuvens" /><br><sub><b>painting</b> · o olho nas nuvens</sub></td>
+<td align="center" width="25%"><img src="assets/o-boca.gif" width="130" alt="Pedaço de carne com uma boca cheia de dentes" /><br><sub><b>curse</b> · fome</sub></td>
+<td align="center" width="25%"><img src="assets/o-pager.gif" width="130" alt="Pager do sonho com amuletos no chaveiro" /><br><sub><b>item</b> · pager do sonho</sub></td>
 </tr>
 </table>
 </div>
@@ -75,9 +75,9 @@ Fora dos jogos, **estudo áudio por hobby** (fones, hi-fi e como o som funciona)
 <div align="center">
 <img src="https://raw.githubusercontent.com/licasmp4/licasmp4/output/cobrinha.svg" width="100%" alt="Cobrinha comendo o gráfico de contribuições" />
 
-<img src="https://streak-stats.demolab.com/?user=licasmp4&hide_border=true&background=080a2e&ring=ff4fb6&fire=ff8ac0&currStreakNum=e8ecff&sideNums=e8ecff&currStreakLabel=7dff8a&sideLabels=b9c6ff&dates=7f9bff&stroke=2a2f86&locale=pt_BR" alt="Sequência de contribuições" />
+<img src="https://streak-stats.demolab.com/?user=licasmp4&hide_border=true&background=050507&ring=ff3b4f&fire=ff3b4f&currStreakNum=eafff0&sideNums=eafff0&currStreakLabel=9fffb0&sideLabels=cfd8c8&dates=8a8a96&stroke=3a0a14&locale=pt_BR" alt="Sequência de contribuições" />
 
 <br><br>
 
-<img src="assets/corredor.gif" width="100%" alt="Corredor low-poly com papel de parede florido e um anjo dormindo no fim: o sonho continua." />
+<img src="assets/corredor.gif" width="100%" alt="Corredor florido com estátuas sem rosto e uma criatura de saco esperando no fim: e o sonho continua." />
 </div>
